@@ -16,12 +16,17 @@
 
 package com.google.android.glass.sample.charades;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.os.Handler;
+import android.preference.PreferenceManager;
 import android.view.MotionEvent;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -44,11 +49,6 @@ public abstract class BaseGameActivity extends Activity {
     /** The amount of time to leave the correctly guessed phrase on screen before advancing. */
     private static final long SCORED_PHRASE_DELAY_MILLIS = 500;
 
-    /** The Unicode character for the hollow circle representing a phrase not yet guessed. */
-    private static final char HOLLOW_CIRCLE = '\u25cb';
-
-    /** The Unicode character for the filled circle representing a correctly guessed phrase. */
-    private static final char FILLED_CIRCLE = '\u25cf';
 
     /** A light blue color applied to the circle representing the current phrase. */
     private static final int CURRENT_PHRASE_COLOR = Color.rgb(0x34, 0xa7, 0xff);
@@ -70,14 +70,20 @@ public abstract class BaseGameActivity extends Activity {
                         // "disallowed" tug animation.
                         tugPhrase();
                         return true;
+                    case SWIPE_DOWN:
+                        setResult(RESULT_CANCELED);
+                        playSoundEffect(Sounds.DISMISSED);
+                        finish();
+                        return true;
                     case TAP:
                     case SWIPE_RIGHT:
                         // Delegate tap and swipe right (forward) to the subclass so that the
                         // tutorial and actual game can handle them differently.
                         handleGameGesture(gesture);
                         return true;
+                    
                     default:
-                        return false;
+                        return true;
                 }
             }
             return false;
@@ -132,10 +138,29 @@ public abstract class BaseGameActivity extends Activity {
     }
 
     /**
-     * Subclasses must override this method to create and return the data model that will be used
-     * by the game.
+     * Subclasses are using the same model
      */
-    protected abstract CharadesModel createCharadesModel();
+    protected CharadesModel createCharadesModel() {
+    	int level = PreferenceManager.getDefaultSharedPreferences(this).getInt(BaseScrollActivity.LEVEL, 0);
+    	//Beginner at level 0 is the default
+    	final List<String> allPhrases;
+    	switch(level) {
+    		case 0:
+    			level = R.array.definition;
+    			break;
+    		case 1:
+    			level = R.array.intermediate;
+    			break;
+    		case 2:
+    			level = R.array.advanced;
+    			break;
+    			
+    		}
+    	allPhrases = Arrays.asList(getResources().getStringArray(level));
+        
+        Collections.shuffle(allPhrases);
+        return new CharadesModel(allPhrases);
+    }
 
     /**
      * Subclasses must override this method to handle {@link Gesture#TAP} and
@@ -194,8 +219,29 @@ public abstract class BaseGameActivity extends Activity {
     private void updateDisplay() {
         getCurrentTextView().setText(mModel.getCurrentPhrase());
         getCurrentTextView().setTextColor(Color.WHITE);
-        mGameState.setText(mModel.mCurrentPhrase + " of " + mModel.mTotal + ", " + mModel.mScore + " correct*");
+        if(mModel.mCurrentPhrase == 0) {
+        	mGameState.setText(getLevelText());
+        } else {
+            mGameState.setText((mModel.mCurrentPhrase+1) + " of " + 
+            		(mModel.mTotal+1) + ", " + mModel.mScore + " correct*");
+        }
         //TODO, counter to show total and correct
+    }
+    
+    /**
+     * Read the Shared preference value set by the base scroll activity
+     * @return Level of difficulty descriptive string
+     */
+    String getLevelText() {
+    	switch(PreferenceManager.getDefaultSharedPreferences(this).getInt(BaseScrollActivity.LEVEL, 0)) {
+    		case 0:
+    			return "Beginner Level";
+    		case 1:
+    			return "Intermediate Level";
+    		case 2:
+    			return "Advanced Level";
+    		}
+		return "Beginner Level";
     }
 
     /**

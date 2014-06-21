@@ -14,9 +14,14 @@ public final class R {
         public static final int tug_right=0x7f040002;
     }
     public static final class array {
-        /**  sentence and definitions 
+        public static final int advanced=0x7f0a0002;
+        /** 
+         sentence and definitions, words scraped from The Herald
+    	http://www2.sharonherald.com/herald/nie/spellb/spelllist3.html
+    
          */
         public static final int definition=0x7f0a0000;
+        public static final int intermediate=0x7f0a0001;
     }
     public static final class attr {
     }
@@ -41,14 +46,15 @@ public final class R {
         public static final int ic_help_50=0x7f020001;
         public static final int ic_phrase_correct_30=0x7f020002;
         public static final int ic_phrase_missed_30=0x7f020003;
+        public static final int ic_reset=0x7f020004;
     }
     public static final class id {
         public static final int game_state=0x7f0c0004;
-        public static final int image=0x7f0c0009;
-        public static final int instructions=0x7f0c000c;
+        public static final int image=0x7f0c000a;
+        public static final int instructions=0x7f0c000d;
         public static final int message=0x7f0c0007;
-        public static final int new_game=0x7f0c000b;
-        public static final int phrase=0x7f0c000a;
+        public static final int new_game=0x7f0c000c;
+        public static final int phrase=0x7f0c000b;
         public static final int phrase_flipper=0x7f0c0000;
         public static final int phrase_primary=0x7f0c0001;
         public static final int phrase_secondary=0x7f0c0002;
@@ -56,6 +62,8 @@ public final class R {
         public static final int status_bar=0x7f0c0003;
         public static final int timer=0x7f0c0005;
         public static final int tip_tap_for_options=0x7f0c0006;
+        public static final int value=0x7f0c0009;
+        public static final int wordlevel=0x7f0c000e;
     }
     public static final class integer {
         /**  The duration of the slide animations used by the in-game ViewFlipper. 
@@ -67,7 +75,8 @@ public final class R {
         public static final int activity_start_game=0x7f030001;
         public static final int card_results_phrase_list=0x7f030002;
         public static final int card_results_summary=0x7f030003;
-        public static final int table_row_result=0x7f030004;
+        public static final int card_select_value=0x7f030004;
+        public static final int table_row_result=0x7f030005;
     }
     public static final class menu {
         public static final int game_results=0x7f0b0000;
@@ -81,9 +90,6 @@ public final class R {
         /**  The name of the application. 
          */
         public static final int app_name=0x7f090000;
-        /**  Text displayed on the result summary card when the game ended because time ran out. 
-         */
-        public static final int game_over=0x7f090002;
         /** 
          Text displayed on the result summary card when the game ended because all phrases were
          guessed correctly.
@@ -93,6 +99,7 @@ public final class R {
         /**  Menu item text to display the game instructions. 
          */
         public static final int instructions=0x7f090006;
+        public static final int level=0x7f090002;
         /**  Menu item text to start a new game. 
          */
         public static final int new_game=0x7f090005;

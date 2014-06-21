@@ -22,9 +22,7 @@
 
     <!-- Tip text displayed at the bottom of the splash screen. -->
     <string name="tap_for_options">Tap for options</string>
-
-    <!-- Text displayed on the result summary card when the game ended because time ran out. -->
-    <string name="game_over">Game over</string>
+    <string name="level">Choose Level</string>
 
     <!--
          Text displayed on the result summary card when the game ended because all phrases were
@@ -41,7 +39,10 @@
     <!-- Menu item text to display the game instructions. -->
     <string name="instructions">Speller Help</string>
 
-    <!-- sentence and definitions -->
+    <!--
+         sentence and definitions, words scraped from The Herald
+    	http://www2.sharonherald.com/herald/nie/spellb/spelllist3.html
+    -->
     <string-array name="definition">
         <item>Abscess is a localized collection of pus in tissues of the body.</item>
         <item>Accessible means easy to approach</item>
@@ -542,6 +543,1015 @@
         <item>Wield is to exercise power or authority.</item>
         <item>Yacht is a private cruising vessel.</item>
         <item>Yolk is the yellow substance of an egg.</item>
+    </string-array>
+    <string-array name="intermediate">
+        <item>Aardwolf is a hyena-like animal of southern and eastern Africa.</item>
+        <item>Aberration is departing from the usual course.</item>
+        <item>Abridgment is a shortened form of a book.</item>
+        <item>Abscission is sudden termination.</item>
+        <item>Acerbate is to make sour or bitter.</item>
+        <item>Aficionado is a devotee of something.</item>
+        <item>Algorithm is a set of rules for solving a problem.</item>
+        <item>Alignment is arrangement in a straight line.</item>
+        <item>Allocution is a formal speech.</item>
+        <item>Ancillary is a subordinate or subsidiary.</item>
+        <item>Apocalypse is widespread destruction or disaster.</item>
+        <item>Applique is ornamentation applied to a material.</item>
+        <item>Archetype (arkitype) is the original model.</item>
+        <item>Avenge is to exact satisfaction for.</item>
+        <item>Babushka is a woman\'s scarf.</item>
+        <item>Baccalaureate is a religious service held before commencement day.</item>
+        <item>Balalaika is a Russian musical instrument.</item>
+        <item>Baroque pertains to architecture and art from 17th century Italy.</item>
+        <item>Barracuda is a long, predaceous fish.</item>
+        <item>Bayou is a marshy arm of a river, usually sluggish or stagnant.</item>
+        <item>Beleaguer is to surround with troubles.</item>
+        <item>Belligerence is a hostile attitude.</item>
+        <item>Beret is a soft, visorless cap.</item>
+        <item>Bivouac is a military encampment.</item>
+        <item>Blithe is joyous, glad or cheerful.</item>
+        <item>Boatswain is a warrant officer on a warship.</item>
+        <item>Bourgeois is to be a member of the middle class.</item>
+        <item>Boutique is a small shop within a larger store.</item>
+        <item>Boutonniere is a flower worn by a man in his lapel.</item>
+        <item>Boysenberry is a blackberry-like fruit.</item>
+        <item>Buoy is a float used to mark a water channel.</item>
+        <item>Cabaret is a restaurant providing food, drink and music.</item>
+        <item>Calisthenics are gymnastic exercises.</item>
+        <item>Callous is hard or indifferent.</item>
+        <item>Camouflage is hiding oneself from one\'s enemy.</item>
+        <item>Cannoneer is an artilleryman.</item>
+        <item>Cantankerous is disagreeable to deal with.</item>
+        <item>Cardiopulmonary pertaining to the heart and lungs.</item>
+        <item>Carnivorous means flesh-eating.</item>
+        <item>Catastrophe is a sudden and widespread disaster.</item>
+        <item>Celerity is swiftness, speed.</item>
+        <item>Censer a container in which incense is burned.</item>
+        <item>Changeable is liable to change or to be changed.</item>
+        <item>Chaparral is a dense growth of shrubs or trees (southwest).</item>
+        <item>Commemorate is to serve as a reminder of.</item>
+        <item>Committal is an act or instance of committing.</item>
+        <item>Connoisseur is a person competent to pass critical judgment.</item>
+        <item>Convalescence is the gradual recovery to health after illness.</item>
+        <item>Cornucopia is the horn of plenty in mythology.</item>
+        <item>Corruptible is that which can be corrupted.</item>
+        <item>Crevasse is a fissure in ice or the earth.</item>
+        <item>Croissant is a rich, buttery crescent-shaped roll.</item>
+        <item>Curmudgeon is a bad-tempered, cantankerous person.</item>
+        <item>Cynic is a person who believes in selfishness as prime motivation.</item>
+        <item>Dachshund is a long, German dog.</item>
+        <item>Decaffeinate is to extract caffeine from.</item>
+        <item>Deliverance is an act or instance of delivering.</item>
+        <item>Denouement is the final resolution of the intricacies of a plot.</item>
+        <item>Diaphragm is a part of the human body.</item>
+        <item>Dichotomy is division into two parts.</item>
+        <item>Dietitian is a person who is an expert on nutrition.</item>
+        <item>Diphthong is an unsegmented gliding speech sound</item>
+        <item>Docile is easily handled or manageable.</item>
+        <item>Echo is a repetition of sound produced by reflection of sound waves.</item>
+        <item>Eclair is a finger-shaped creampuff.</item>
+        <item>Eczema is an inflammatory condition of the skin.</item>
+        <item>Effervescent is bubbling, vivacious or gay.</item>
+        <item>Eloquence is using language with fluency and aptness.</item>
+        <item>Encumbrance is something burdensome.</item>
+        <item>Exquisite is of special beauty or charm.</item>
+        <item>Extemporaneous is done without special preparation.</item>
+        <item>Facsimile is an exact copy.</item>
+        <item>Fallacious means logically unsound.</item>
+        <item>Fascinate is to attract and hold attentively.</item>
+        <item>Fauna are the animals of a region considered as a whole.</item>
+        <item>Flocculent is like a clump of wool.</item>
+        <item>Foliage is the leaves of a plant.</item>
+        <item>Forage is food for cattle or horses.</item>
+        <item>Forsythia is a shrub of the olive family.</item>
+        <item>Fraught means full of or accompanied by.</item>
+        <item>Fuchsia is a bright, purplish-red color.</item>
+        <item>Gauche means lacking in social grace.</item>
+        <item>Genre is a class of artistic endeavor having a particular form.</item>
+        <item>Germane means relevant.</item>
+        <item>Gerrymander is dividing election districts to suit one group or party.</item>
+        <item>Glockenspiel is a musical instrument.</item>
+        <item>Gnash is to grind or strike the teeth together.</item>
+        <item>Granary is a storehouse for grain.</item>
+        <item>Grippe is the former name for influenza.</item>
+        <item>Guillotine a device for execution.</item>
+        <item>Hallelujah means praise ye the Lord.</item>
+        <item>Handwrought is formed or shaped by hand, esp. metal objects.</item>
+        <item>Harebrained means giddy or reckless.</item>
+        <item>Harpsichord is a keyboard instrument, precursor of the piano.</item>
+        <item>Haughty is disdainfully proud.</item>
+        <item>Heir is a person who inherits.</item>
+        <item>Hemorrhage is a profuse discharge of blood.</item>
+        <item>Heterogeneous is different in kind, unlike.</item>
+        <item>Hoard is a supply that is carefully guarded or hidden.</item>
+        <item>Holocaust is a great or complete destruction.</item>
+        <item>Homogenize is to form by blending unlike elements.</item>
+        <item>Homonym is a word the same in spelling and sound, but different in meaning.</item>
+        <item>Horde is a large group, a multitude.</item>
+        <item>Humoresque is a musical composition of humorous character.</item>
+        <item>Hydraulic is employing water or other liquids in motion.</item>
+        <item>Hydrolysis is chemical decomposition by reacting with water.</item>
+        <item>Hypothesis is a proposition set forth to explain some occurrence.</item>
+        <item>Hysterical is of or pertaining to hysteria.</item>
+        <item>Idyll is a composition, usually describing pastoral scenes or any appealing incident, or the like.</item>
+        <item>Iguana is a large lizard native to Central and South America.</item>
+        <item>Imperceptible is very slight, gradual or subtle.</item>
+        <item>Impetuous is characterized by sudden or rash action.</item>
+        <item>Impossible means not possible or unable to be done.</item>
+        <item>Impromptu means done without previous preparation.</item>
+        <item>Incidence means the rate of change or occurrence.</item>
+        <item>Indicator is a person or thing that indicates.</item>
+        <item>Infallible is absolutely trustworthy or sure.</item>
+        <item>Inferior is lower in station, rank or degree.</item>
+        <item>Insurgence is an act of rebellion.</item>
+        <item>Interfere is to meddle in the affairs of others.</item>
+        <item>Invoice is an itemized bill for goods or services.</item>
+        <item>Iridescent is displaying a play of bright colors, like a rainbow.</item>
+        <item>Isle is a small island.</item>
+        <item>Isthmus is a narrow strip of land with water on both sides, connecting two larger strips of land.</item>
+        <item>Jackal is a wild dog of Asia and Africa.</item>
+        <item>Jacuzzi is a trade name for a whirlpool bath and related products.</item>
+        <item>Joist is a beam used to support ceilings or floors or the like.</item>
+        <item>Juxtaposition is the act of placing close together.</item>
+        <item>Kaiser is a German or Austrian emperor.</item>
+        <item>Kaleidoscope is a continually shifting pattern or scene.</item>
+        <item>Ketch is a two-masted sailing vessel.</item>
+        <item>Knave is an unprincipled or dishonest person.</item>
+        <item>Knell is the sound made by a bell rung slowly, at a death.</item>
+        <item>Knoll is a small, rounded hill.</item>
+        <item>Labyrinth is an intricate combination of paths in which it is difficult to find the exit.</item>
+        <item>Laconic is using few words, being concise.</item>
+        <item>Laggard is a lingerer; loiterer.</item>
+        <item>Lagoon is an area of shallow water separated from the sea by sandy dunes.</item>
+        <item>Laryngitis is the inflammation of the larynx.</item>
+        <item>Larynx is the structure in which the vocal cords are located.</item>
+        <item>Lavender is a pale bluish purple.</item>
+        <item>Legionnaire is a member of any legion.</item>
+        <item>Leprechaun is a dwarf or sprite in Ireland.</item>
+        <item>Liege is a Feudal lord entitled to allegiance or service.</item>
+        <item>Luau is a feast of Hawaiian food.</item>
+        <item>Luscious is highly pleasing to the taste or smell.</item>
+        <item>Lyre is a musical instrument of ancient Greece, harp-like.</item>
+        <item>Lymphatic is pertaining to, containing or conveying lymph.</item>
+        <item>Mace is a club-like, armor-breaking weapon, used in the Middle Ages.</item>
+        <item>Magnanimous is generous in forgiving insult or injury.</item>
+        <item>Magnify is to increase the apparent size of, as does a lens.</item>
+        <item>Malfeasance is wrongdoing by a public official.</item>
+        <item>Maneuver is a planned movement of troops or warships, etc.</item>
+        <item>Mantle is a loose, sleeveless cloak or cape.</item>
+        <item>Marquee is a projection above a theater entrance, usually containing the name of the feature at the theater.</item>
+        <item>Masquerade is a party of people wearing masks and other disguises.</item>
+        <item>Mature is complete in natural growth or development.</item>
+        <item>Maul is a heavy hammer.</item>
+        <item>Melee is a confused, hand-to-hand fight among several people.</item>
+        <item>Memento is a keepsake or souvenir.</item>
+        <item>Mercenary is working or acting merely for money or reward.</item>
+        <item>Mesquite is a spiny tree found in western North America.</item>
+        <item>Mettle is courage or fortitude.</item>
+        <item>Minuscule means very small.</item>
+        <item>Mirage is something illusory, without substance or reality.</item>
+        <item>Momentous is of great or far-reaching importance.</item>
+        <item>Monastery is a house occupied by usually monks.</item>
+        <item>Monocle is an eyeglass for one eye.</item>
+        <item>Morgue is a place in which bodies are kept.</item>
+        <item>Morphine is a narcotic used as a pain-killer or sedative.</item>
+        <item>Mosque is a Muslim temple or place of public worship.</item>
+        <item>Motif is a recurring subject, theme or idea.</item>
+        <item>Mousse is a sweetened dessert with whipped cream as a base.</item>
+        <item>Mozzarella is a mild, white, semi-soft Italian cheese.</item>
+        <item>Muenster is a white cheese made from whole milk.</item>
+        <item>Municipal is of or pertaining to a town or city or its government.</item>
+        <item>Mysterious is full of or involving mystery.</item>
+        <item>Mystique is an aura of mystery or mystical power surrounding a particular occupation or pursuit.</item>
+        <item>Naughty means disobedient or mischievous.</item>
+        <item>Neuter is gender that is neither masculine nor feminine.</item>
+        <item>Nickel is a coin of the U.S., 20 of which make a dollar.</item>
+        <item>Nickelodeon is an early motion-picture theater.</item>
+        <item>Nomenclature are names or terms comprising a set or system.</item>
+        <item>Nonchalant is coolly unconcerned, unexcited.</item>
+        <item>Nonpareil is having no equal.</item>
+        <item>Noxious is harmful or injurious to health.</item>
+        <item>Nuance is a subtle difference in meaning.</item>
+        <item>Nucleus is the core.</item>
+        <item>Nuisance is an obnoxious or annoying person.</item>
+        <item>Nuptial is of or pertaining to marriage or the ceremony.</item>
+        <item>Nylons are stockings worn by women.</item>
+        <item>Obnoxious is highly objectionable or offensive.</item>
+        <item>Obsolescent means passing out of use, as a word.</item>
+        <item>Occurrence is the action, fact or instance of happening.</item>
+        <item>Ocelot is a spotted, leopard-like cat, ranging from Texas to South America.</item>
+        <item>Ogre is a monster in fairy tales.</item>
+        <item>Onyx is black.</item>
+        <item>Ophthalmology is the branch of medicine dealing with anatomy, functions and diseases of the eye.</item>
+        <item>Ordnance is cannon or artillery.</item>
+        <item>Orphan is a child who has lost both parents through death.</item>
+        <item>Oscillate is to swing or move to and fro, as a pendulum.</item>
+        <item>Overwrought is extremely excited or agitated.</item>
+        <item>Oxygen is the element constituting about one-fifth of the atmosphere.</item>
+        <item>Pacifist is a person who is opposed to war or to violence of any kind.</item>
+        <item>Palette is a board with a thumb hole, used by painters to mix colors.</item>
+        <item>Palomino is a horse with a golden coat, and a white mane and tail.</item>
+        <item>Pamphlet is a short essay, generally controversial, on some subject of contemporary interest.</item>
+        <item>Pantomime is the art of conveying things through gestures, without speech.</item>
+        <item>Papacy is the office, dignity or jurisdiction of the pope.</item>
+        <item>Parable is a short story designed to illustrate some truth.</item>
+        <item>Paralysis is a loss of movement in a body part, caused by disease or injury.</item>
+        <item>Paraphernalia is apparatus necessary for a particular activity.</item>
+        <item>Parishioner is one of the inhabitants of a parish.</item>
+        <item>Parochial is of or pertaining to a parish or parishes.</item>
+        <item>Parody is a humorous imitation of a serious piece of literature.</item>
+        <item>Parquet is a floor composed of strips or blocks of wood forming a pattern.</item>
+        <item>Partition is a division into portions or shares.</item>
+        <item>Pasture is grass used to feed livestock.</item>
+        <item>Patriarch is the male head of a family or tribal line.</item>
+        <item>Patrician is a person of noble rank; an aristocrat.</item>
+        <item>Paunchy is having a large and protruding belly.</item>
+        <item>Pause is a temporary stop or rest.</item>
+        <item>Pavilion is a building used for shelter, concerts, or exhibits.</item>
+        <item>Peak is the pointed top of a mountain.</item>
+        <item>Penchant is a strong inclination or liking for something.</item>
+        <item>Penguin is a flightless bird of the Southern Hemisphere.</item>
+        <item>Penicillin is an antibiotic of low toxicity.</item>
+        <item>Penitentiary is a prison maintained for serious offenders.</item>
+        <item>Perennial is lasting for a long time; enduring.</item>
+        <item>Periphery is the external boundary of any area.</item>
+        <item>Perjury is lying under oath.</item>
+        <item>Perseverance is doggedness, steadfastness.</item>
+        <item>Persuade is to prevail on a person to do something.</item>
+        <item>Peruse is to read through with care.</item>
+        <item>Pesticide is a chemical preparation to destroy pests.</item>
+        <item>Petition is a formally drawn request.</item>
+        <item>Phalanx is a body of troops in close array.</item>
+        <item>Phenomenon is a fact or occurrence observed or observable.</item>
+        <item>Philosopher is one who offers views on profound subjects.</item>
+        <item>Phoenix is a mythical bird able to rise from its own ashes.</item>
+        <item>Physics is the science that deals with matter, energy, motion and force.</item>
+        <item>Picturesque is visually charming or quaint.</item>
+        <item>Peace is a country\'s condition when not involved in war.</item>
+        <item>Pinnacle is a lofty peak.</item>
+        <item>Pinafore is a child\'s apron.</item>
+        <item>Pixie is a fairy or sprite, especially a mischievous one.</item>
+        <item>Placard is a paperboard sign or notice.</item>
+        <item>Placebo is a pill with no medicine but used to soothe a patient.</item>
+        <item>Plaid is any fabric woven of differently colored yarns in a cross-barred pattern.</item>
+        <item>Plight is a condition or situation especially an unfavorable one.</item>
+        <item>Plumber is a person who installs and repairs piping, fixtures, etc.</item>
+        <item>Pneumonia is inflammation of the lungs with congestion.</item>
+        <item>Poignant is keenly distressing to the feelings.</item>
+        <item>Poinsettia is sometimes called the Christmas flower.</item>
+        <item>Politicize is to bring a political flavor to.</item>
+        <item>Populous means heavily populated.</item>
+        <item>Porridge is a food made of cereal, boiled to a thick consistency in water or milk.</item>
+        <item>Posse is a force armed with legal authority.</item>
+        <item>Posthumous is arising, occurring, or continuing after one\'s death.</item>
+        <item>Potpourri is any mixture of unrelated objects, subjects, etc.</item>
+        <item>Practitioner is a person engaged in the practice of a profession or occupation.</item>
+        <item>Prairie is a tract of grassland; a meadow.</item>
+        <item>Precise is definitely or strictly stated.</item>
+        <item>Prerogative is an exclusive right or privilege.</item>
+        <item>Prestigious is having a high reputation.</item>
+        <item>Prey is an animal hunted or seized for food.</item>
+        <item>Principle is an accepted or professed rule of action or conduct.</item>
+        <item>Pronunciation is an accepted standard of the sound and stress patterns of a syllable or word.</item>
+        <item>Psalm is a sacred song or hymn.</item>
+        <item>Psychology is the science of the mind or of mental states and processes.</item>
+        <item>Purge is to cleanse or to purify.</item>
+        <item>Quaff is to drink a beverage.</item>
+        <item>Quandary is a state of uncertainty.</item>
+        <item>Quarantine is a strict isolation.</item>
+        <item>Questionnaire is a list of questions submitted for replies.</item>
+        <item>Queue is a braid of hair or a line of people.</item>
+        <item>Quiche is a dish with cheeses and other vegetables.</item>
+        <item>Quintessence is the pure and concentrated essence of a substance.</item>
+        <item>Rabble is a disorderly crowd; mob.</item>
+        <item>Raffle is a form of a lottery.</item>
+        <item>Rambunctious is difficult to control or handle.</item>
+        <item>Rancid is having an unpleasant smell or taste.</item>
+        <item>Raspberry is the fruit of a shrub.</item>
+        <item>Ratchet is a tool.</item>
+        <item>Rationale is the fundamental reason serving to account for something.</item>
+        <item>Recede means to go or move away.</item>
+        <item>Recluse is a person who lives apart or in seclusion.</item>
+        <item>Reconnaissance is the act of reconnoitering.</item>
+        <item>Rectify is to make or set right.</item>
+        <item>Recurrence is an act of something happening again.</item>
+        <item>Reggae is a style of Jamaican popular music.</item>
+        <item>Rehearse is to practice.</item>
+        <item>Reign is the period during which a sovereign sits on a throne.</item>
+        <item>Rein is the leather strap used to control a horse.</item>
+        <item>Remembrance is a memory.</item>
+        <item>Reminiscence is the process of recalling experiences.</item>
+        <item>Requisition is the act of requiring or demanding.</item>
+        <item>Rescind is to annul or repeal.</item>
+        <item>Respondent is a person who responds or makes replies.</item>
+        <item>Resume is a summing up, a summary.</item>
+        <item>Resurrection is the act of rising from the dead.</item>
+        <item>Revise is to amend or alter.</item>
+        <item>Rhapsodic is ecstatic or extravagantly enthusiastic.</item>
+        <item>Rhetoric is bombast or the undue use of exaggeration or display.</item>
+        <item>Rhubarb is a plant of the buckwheat family.</item>
+        <item>Right is in accordance with what is good or just.</item>
+        <item>Rigor is strictness, severity or hardness.</item>
+        <item>Rotor is a rotating part of a machine.</item>
+        <item>Rouge is any of various red cosmetics for cheek and lips.</item>
+        <item>Roulette is a game of chance.</item>
+        <item>Rubella is a disease also called German measles.</item>
+        <item>Sable is an Old World weasel-like animal.</item>
+        <item>Sachet is a small bag containing perfuming powder or the like.</item>
+        <item>Sacrilegious  is pertaining to the violation of anything sacred.</item>
+        <item>Saffron is a crocus having showy, purple flowers.</item>
+        <item>Salutatorian  is the person ranking second in the graduating class.</item>
+        <item>Sanctimonious is making a hypocritical show of religious devotion.</item>
+        <item>Sapphire is a gem with a blue color.</item>
+        <item>Sarcasm  is harsh or bitter derision or irony.</item>
+        <item>Satellite is a body that revolves around a planet, a moon.</item>
+        <item>Sauerkraut is cabbage allowed to ferment until sour.</item>
+        <item>Sauna is a bath that uses dry heat to induce perspiration.</item>
+        <item>Scandalous is disgraceful or shocking behavior.</item>
+        <item>Scarab is a beetle regarded as sacred by the ancient Egyptians.</item>
+        <item>Scenario is the outline of a plot of a dramatic work.</item>
+        <item>Scepter is a rod held as an emblem of regal or imperial power.</item>
+        <item>Schizophrenia is a severe mental disorder.</item>
+        <item>Schnauzer is a German breed of medium-sized dogs.</item>
+        <item>Sciatic is pertaining to the back of the hip.</item>
+        <item>Scour is to remove dirt by hard scrubbing.</item>
+        <item>Scourge is a cause of affliction or calamity.</item>
+        <item>Scrod is a young Atlantic codfish or haddock.</item>
+        <item>Scruple is a moral standard that acts as a restraining force.</item>
+        <item>Sculptor is a person who practices the art of sculpture.</item>
+        <item>Seance is a meeting in which people try to communicate with spirits.</item>
+        <item>Seclude is to withdraw into solitude.</item>
+        <item>Seine is a fishing net.</item>
+        <item>Semaphore is an apparatus for conveying visual signals.</item>
+        <item>Sensuous means pertaining to or affecting the senses.</item>
+        <item>Separate means to keep apart or divide.</item>
+        <item>Sepulcher is a tomb, grave or burial place.</item>
+        <item>Sequoia is a large tree, aka redwood.</item>
+        <item>Sergeant is a noncommissioned officer above the rank of corporal.</item>
+        <item>Serial is anything published in short installments at regular intervals.</item>
+        <item>Sew is to join or attach by stitches.</item>
+        <item>Shackle is something used to secure the wrist, leg, etc.</item>
+        <item>Sheathe is to put a sword into a sheath.</item>
+        <item>Sheen is luster, brightness, radiance.</item>
+        <item>Shrew is a woman of violent temper and speech.</item>
+        <item>Shroud is a cloth or sheet in which a corpse is wrapped for burial.</item>
+        <item>Sierra is a chain of hills or mountains, the peaks of which suggest the teeth of a saw.</item>
+        <item>Silhouette is a two-dimensional representation of the outline of an object.</item>
+        <item>Simile is a figure of speech in which two unlike things are compared, as in she is like a rose.</item>
+        <item>Simultaneous is occurring or operating at the same time.</item>
+        <item>Singe is to burn slightly, to scorch.</item>
+        <item>Siphon is a tube bent into legs of unequal length, for getting liquid from one container to another.</item>
+        <item>Skeptic is a person who questions the validity of something.</item>
+        <item>Skew is to turn aside or swerve.</item>
+        <item>Slaughter is the killing of cattle, etc., for food.</item>
+        <item>Sleigh is a vehicle on runners, especially used over snow or ice.</item>
+        <item>Sleight is skill or dexterity.</item>
+        <item>Sleuth is a detective.</item>
+        <item>Slough (sloo) is an area of soft, muddy ground.</item>
+        <item>Sojourn is a temporary stay.</item>
+        <item>Solder is an alloy fused and applied to the joint between metal objects to unite them.</item>
+        <item>Solemn is grave or sober or mirthless.</item>
+        <item>Sovereign is a monarch or a king.</item>
+        <item>Spasm is a sudden involuntary muscular contraction.</item>
+        <item>Specter is a ghost, phantom or apparition.</item>
+        <item>Sponsor is a person who vouches for or is responsible for a person.</item>
+        <item>Squabble is to engage in a petty quarrel.</item>
+        <item>Squeak is a short, sharp, shrill cry.</item>
+        <item>Squint is to look with the eyes partly closed.</item>
+        <item>Stationery is writing paper.</item>
+        <item>Stimulus is something that incites to action or exertion.</item>
+        <item>Strait is a narrow passage of water between 2 larger bodies of water.</item>
+        <item>Straitjacket is a garment made of strong material and designed to bind the arms.</item>
+        <item>Stroganoff is a dish of meet sauteed with onions and cooked in a sauce of sour cream.</item>
+        <item>Suave is smoothly agreeable or polite.</item>
+        <item>Subpoena is the usual writ for the summoning of witnesses.</item>
+        <item>Subtle is thin, tenuous or delicate in meaning.</item>
+        <item>Succinct means expressed in few words, concise, terse.</item>
+        <item>Sufficiency is adequacy.</item>
+        <item>Suite is a number of things forming a set.</item>
+        <item>Supersede is to replace in power, or acceptance.</item>
+        <item>Supposition is something that is supposed; assumption.</item>
+        <item>Surety is security against loss or damage.</item>
+        <item>Surrey is a light carriage for four persons.</item>
+        <item>Surrogate is a person appointed to act for another; a deputy.</item>
+        <item>Surveillance is a watch kept over a person or group.</item>
+        <item>Swerve is to turn aside abruptly.</item>
+        <item>Symposium is a meeting to discuss some subject.</item>
+        <item>Synod is an assembly of church delegates.</item>
+        <item>Synonym is a word having nearly the same meaning as another.</item>
+        <item>Syntax is the study of the rules for the formation of grammatical sentences in a language.</item>
+        <item>Tabernacle is a place or house of worship.</item>
+        <item>Tableau is a picture of a scene.</item>
+        <item>Tabular means arranged into a table.</item>
+        <item>Tachometer is a machine to measure velocity or speed.</item>
+        <item>Tacky is not tasteful or fashionable.</item>
+        <item>Tact is a sense of what to say without raising offense.</item>
+        <item>Taffy is a chewy candy.</item>
+        <item>Tail is the hindmost part of an animal.</item>
+        <item>Taint is a trace of something bad or harmful.</item>
+        <item>Tally is an account or reckoning.</item>
+        <item>Tambourine is a small drum consisting of a circular frame with skin stretched over it and several pairs of metal jingles attached.</item>
+        <item>Tandem is one following or behind the other.</item>
+        <item>Tangible is capable of being touched.</item>
+        <item>Tantalize means to torment with.</item>
+        <item>Tapestry is a fabric used for wall hangings or furniture coverings.</item>
+        <item>Tassel is an ornament consisting of a bunch of threads hanging from a round knob, used on clothing or jewelry.</item>
+        <item>Taught is the past participle of teach.</item>
+        <item>Taunt means to mock.</item>
+        <item>Tawdry means showy or cheap.</item>
+        <item>Tea is something to drink.</item>
+        <item>Tee is a golfer\'s aid.</item>
+        <item>Technique is the manner in which the technical skills of a particular art or field of endeavor are used.</item>
+        <item>Tedious means long and tiresome.</item>
+        <item>Teeter means to move unsteadily.</item>
+        <item>Telegraph is an apparatus to send messages to a distant place.</item>
+        <item>Telepathy is communication between minds.</item>
+        <item>Telephone is an apparatus to send sound to distances.</item>
+        <item>Temblor is a tremor; earthquake.</item>
+        <item>Tempt means to entice or allure to do something often considered wrong.</item>
+        <item>Tenor is the meaning that runs through something written or spoken.</item>
+        <item>Tense is stretched tight; high-strung or nervous.</item>
+        <item>Terrain is a tract of land.</item>
+        <item>Terse is neatly or effectively concise; brief and pithy.</item>
+        <item>Tetanus is a disease, commonly called lockjaw.</item>
+        <item>Thatch is a material used to cover roofs.</item>
+        <item>Thermometer is a device for measuring temperature.</item>
+        <item>Thesaurus is a dictionary of synonyms and antonyms.</item>
+        <item>Thesis is a proposition put forth to be considered.</item>
+        <item>Thigh is between the hip and the knee.</item>
+        <item>Thimble is a small cap, worn over the fingertip to protect it when pushing a needle through a cloth in sewing.</item>
+        <item>Third is next after the second.</item>
+        <item>Thistle is a prickly plant.</item>
+        <item>Thorough is executed without negligence or omissions.</item>
+        <item>Thumb is the short, thick inner digit of the human hand.</item>
+        <item>Tier is one of a series of rows rising one behind or above another.</item>
+        <item>Tinsel is a glittering, metallic substance, usually in strips.</item>
+        <item>Titanic meaning gigantic.</item>
+        <item>Titlist is a titleholder, champion.</item>
+        <item>Tobacco is the plant used in making cigarettes.</item>
+        <item>Tongue is the movable organ in the mouth of humans.</item>
+        <item>Tonsillectomy is the operation removing one or both tonsils.</item>
+        <item>Topaz is a mineral used as a gem.</item>
+        <item>Torque is something that produces rotation.</item>
+        <item>Tout is to solicit business.</item>
+        <item>Toxicity is the degree of being poisonous.</item>
+        <item>Traceable is capable of being traced.</item>
+        <item>Trachea is the windpipe.</item>
+        <item>Trait is a distinguishing characteristic or quality.</item>
+        <item>Tranquil is calm or peaceful.</item>
+        <item>Transcend is to rise above or go beyond.</item>
+        <item>Transient means not lasting or enduring.</item>
+        <item>Translucent is letting pass through, but not clearly.</item>
+        <item>Trapeze is an apparatus consisting of a horizontal bar attached to two suspending ropes.</item>
+        <item>Trauma is a body wound or shock produced by sudden physical injury.</item>
+        <item>Trestle is a type of frame, used in railroad spans.</item>
+        <item>Trichotomy means divided into three parts.</item>
+        <item>Trivial means of little significance or importance.</item>
+        <item>Trough is a receptacle, usually for drinking from.</item>
+        <item>Troupe is a group of actors or performers, esp. travelers.</item>
+        <item>Truancy is the act of being truant or late.</item>
+        <item>Tyrannize is to exercise absolute control or power.</item>
+        <item>Ulcer is a sore on the skin.</item>
+        <item>Uncollectible means it can\'t be collected.</item>
+        <item>Unkempt is disheveled or messy.</item>
+        <item>Vaccinal pertaining to vaccine or vaccination.</item>
+        <item>Vague is not clearly expressed or identified.</item>
+        <item>Vaudeville is a theatrical entertainment.</item>
+        <item>Vehemence meaning ardor or fervor.</item>
+        <item>Veneer is a thin layer of wood.</item>
+        <item>Vengeance means violent revenge or getting back.</item>
+        <item>Vermicelli is a form of pasta.</item>
+        <item>Victuals are food supplies.</item>
+        <item>Viscount is a nobleman just below an earl or count.</item>
+        <item>Vogue means something in fashion.</item>
+        <item>Vying is competing or contending.</item>
+        <item>Waive is to give up or to forgo.</item>
+        <item>Whack is to strike with a sharp blow or blows.</item>
+        <item>Wheelwright is a person whose trade is to make wheels.</item>
+        <item>Wherever is in, at or to whatever place.</item>
+        <item>Wince is to draw back or tense the body.</item>
+        <item>Wrack is wreck or wreckage.</item>
+        <item>Wreak to inflict or execute as punishment or vengeance.</item>
+        <item>Wren is a small, active songbird.</item>
+        <item>Yeoman is a petty officer in a navy.</item>
+        <item>Zeppelin is a rigid airship or dirigible.</item>
+        <item>Zoological is of or pertaining to zoology.</item>
+        <item>Zucchini is a variety of summer squash.</item>
+    </string-array>
+    
+    <string-array name="advanced">
+        <item>Abaciscus is a small abacus.</item>
+        <item>Abatjour is a device, as a skylight, for diverting light into buildings.</item>
+        <item>Abattoir is a slaughterhouse.</item>
+        <item>Abecedarian is a person who is learning the letters of the alphabet.</item>
+        <item>Abeyant means temporarily suspended.</item>
+        <item>Absorbefacient means causing absorption.</item>
+        <item>Acaulescent means either stemless or without a visible stem.</item>
+        <item>Accoucheur is a person who assists during childbirth.</item>
+        <item>Acquiesce means to comply or submit.</item>
+        <item>Aerogramme is a pre-stamped, lightweight paper that folds into its own envelope.</item>
+        <item>Affenpinscher is a breed of dog with wiry hair.</item>
+        <item>Afrikaans is an official language of South Africa.</item>
+        <item>Ageusia is the loss of the sense of taste.</item>
+        <item>Albescent means to become whitish.</item>
+        <item>Alette (ahleet) is a small wing of a building.</item>
+        <item>Amethyst is a purple quartz, used as a gem.</item>
+        <item>Amphitheater is an oval or round building with an open central area.</item>
+        <item>Ampullaceous means bottle-shaped.</item>
+        <item>Anathematize means to denounce or to curse.</item>
+        <item>Androgynous means being both male and female.</item>
+        <item>Ankh is an Egyptian cross used as a symbol of enduring life.</item>
+        <item>Anopheles is a malaria-causing mosquito.</item>
+        <item>Apartheid a rigid policy of segregation in South Africa.</item>
+        <item>Appaloosa is a hardy breed of riding horse.</item>
+        <item>Aqueous is of or pertaining to water, watery.</item>
+        <item>Armoire is a large wardrobe or movable cupboard.</item>
+        <item>Arrhythmia is any interruption in the heartbeat.</item>
+        <item>Ascetic is a person who practices self-denial for religious reasons.</item>
+        <item>Aurochs is a black European wild ox, extinct since 1627.</item>
+        <item>Autocephalous is a bishop subordinate to no superior authority.</item>
+        <item>Avuncular pertains to an uncle.</item>
+        <item>Azimuth is the angle of horizontal deviation of a bearing from a standard direction.</item>
+        <item>Babiche is a thong used in making snowshoes.</item>
+        <item>Bacchanal is a drunken revelry.</item>
+        <item>Bacciferous means bearing or producing berries.</item>
+        <item>Badinage is light, playful banter.</item>
+        <item>Bagatelle is something of little value.</item>
+        <item>Bagheera is a velvet used to make evening wear and wraps.</item>
+        <item>Baize is a felt used on tops of billiard tables.</item>
+        <item>Baksheesh is a tip or gratuity _ used in the Middle East.</item>
+        <item>Banquette is a long bench with an upholstered seat.</item>
+        <item>Bassarisk is a carnivorous mammal.</item>
+        <item>Bdellium is a resin obtained from plants (dellium).</item>
+        <item>Bellwether is someone who assumes leadership.</item>
+        <item>Beneficence is the doing of good.</item>
+        <item>Beriberi is a disease caused by a vitamin B1 deficiency.</item>
+        <item>Beryllium is a hard, light metallic element.</item>
+        <item>Bight is the middle part of a rope.</item>
+        <item>Bludgeon is a short, heavy club with one heavier end.</item>
+        <item>Boudoir is a woman\'s private sitting room.</item>
+        <item>Bouffant means puffed out, as in a teased hairdo.</item>
+        <item>Brooch  is a clasp or ornament.</item>
+        <item>Bucolic is of or pertaining to shepherds.</item>
+        <item>Bumbershoot is a name for an umbrella.</item>
+        <item>Cacophony is a harsh discordance of sound.</item>
+        <item>Caique is a single-masted sailing vessel (Mediterranean).</item>
+        <item>Caliph is a spiritual leader of Islam.</item>
+        <item>Cantle is the hind part of a saddle.</item>
+        <item>Carillon is a set of bells sounded by manual or pedal action.</item>
+        <item>Carrefour (carrefoor) is a crossroads, a road junction.</item>
+        <item>Cartouche a surface for receiving a painted decoration.</item>
+        <item>Casque is an open conical helmet with a nose guard (medieval).</item>
+        <item>Catafalque is a raised structure on which the body of a dead person lies.</item>
+        <item>Catarrh an inflammation of a mucous membrane.</item>
+        <item>Caterwaul is to utter long wailing cries, as a cat.</item>
+        <item>Cauterize is to burn for curative purposes.</item>
+        <item>Cayuse is an Indian pony.</item>
+        <item>Ceraceous is waxlike or waxy.</item>
+        <item>Chancre is the initial lesion of infectious diseases.</item>
+        <item>Chattel is a movable item of personal property.</item>
+        <item>Chlorofluorocarbon is a substance blamed for the hole in the ozone layer.</item>
+        <item>Cirrhosis is a disease of the liver.</item>
+        <item>Claque a group of people hired to applaud an act or performer.</item>
+        <item>Colonnade a series of regularly spaced columns.</item>
+        <item>Contemn means to treat with disdain or scorn.</item>
+        <item>Continuum is a continuous extent, series or whole.</item>
+        <item>Convivial means friendly or agreeable.</item>
+        <item>Copacetic means fine, completely satisfactory.</item>
+        <item>Corporeity is materiality.</item>
+        <item>Cuirass (kwirass) is defensive armor for the torso.</item>
+        <item>Culottes are women\'s trousers, usually knee or calf-length.</item>
+        <item>Dahlia is a flower.</item>
+        <item>Daguerreotype is an obsolete photographic process.</item>
+        <item>Deign to think fit or to condescend.</item>
+        <item>Demagoguery are methods or practices of a demagogue.</item>
+        <item>Demesne is possession of land as one\'s own.</item>
+        <item>Demitasse is a small cup for serving strong black coffee.</item>
+        <item>Desiccate is to dry thoroughly.</item>
+        <item>Dhow is a sailing vessel used by Arabs.</item>
+        <item>Diaphanous means very sheer and light.</item>
+        <item>Dilettante is a person who takes up an occupation as an amusement.</item>
+        <item>Dinghy is a small boat designed as a lifeboat.</item>
+        <item>Dispossess is to put a person out of a possession, esp. property.</item>
+        <item>Dormouse is a small rodent resembling a small squirrel.</item>
+        <item>Doubloon is a former gold coin of Spain.</item>
+        <item>Dysentery is an infectious disease.</item>
+        <item>Ecru is a very light brown.</item>
+        <item>Edelweiss is a small plant growing in the Alps.</item>
+        <item>Egregious is extraordinary is some bad way.</item>
+        <item>Emphysema is an irreversible disease of the lungs.</item>
+        <item>Ephemeral is lasting a very short time.</item>
+        <item>Epiphany is a Christian festival.</item>
+        <item>Equestrienne is a woman who rides horses.</item>
+        <item>Ersatz means serving as a substitute.</item>
+        <item>Escutcheon is a shield on which a coat of arms is depicted.</item>
+        <item>Euchre is a game of cards.</item>
+        <item>Eviscerate is to disembowel.</item>
+        <item>Exsiccate is to remove the moisture from.</item>
+        <item>Facetious means not to be taken seriously.</item>
+        <item>Fasciation is the act of bandaging.</item>
+        <item>Fiefdom is the estate of a feudal lord.</item>
+        <item>Finagle is to cheat or swindle someone.</item>
+        <item>Fizgig is a firework that makes a hissing sound.</item>
+        <item>Flaccid means soft and limp.</item>
+        <item>Fluxion is an act of flowing.</item>
+        <item>Formaldehyde is a colorless, toxic gas.</item>
+        <item>Frankincense is an aromatic gum resin used as incense.</item>
+        <item>Fricassee is meat browned, stewed and served in its own sauce.</item>
+        <item>Frieze is a decorative band on an outside wall.</item>
+        <item>Fulsome means offensive to good taste.</item>
+        <item>Fusillade is a simultaneous discharge of firearms.</item>
+        <item>Gabardine is a firm, tightly woven fabric.</item>
+        <item>Gallimaufry is a hodgepodge, a jumble.</item>
+        <item>Garrote is a method of capital punishment.</item>
+        <item>Gesundheit is used to wish good health after a sneeze.</item>
+        <item>Gewgaw is a trinket or bauble.</item>
+        <item>Ghillie is a low-cut, tongueless shoe.</item>
+        <item>Glaucescent means becoming a light bluish-green.</item>
+        <item>Glyph is a pictograph or hieroglyph.</item>
+        <item>Gneiss is a metamorphic rock.</item>
+        <item>Gnome is a small being that guards the interior treasures of earth.</item>
+        <item>Gnosis is knowledge of spiritual matters.</item>
+        <item>Godet is a triangular piece of fabric inserted to give fullness.</item>
+        <item>Golliwogg is a grotesque person.</item>
+        <item>Grandiloquence is a speed that is lofty, often to being pompous.</item>
+        <item>Guillemot is a seabird of Northern waters.</item>
+        <item>Gyve is a shackle for the leg.</item>
+        <item>Habiliments is clothing.</item>
+        <item>Hackamore is a simple, looped bridle for a horse.</item>
+        <item>Halcyon means calm or peaceful.</item>
+        <item>Halophyte is a plant that thrives in saline soil.</item>
+        <item>Handbreadth is a unit of linear measure.</item>
+        <item>Hartebeest is a large African antelope.</item>
+        <item>Hegemony is leadership or predominant influence by one nation.</item>
+        <item>Hematozoon is a parasitic protozoan that lives in the blood.</item>
+        <item>Herbage (erbij) nonwoody vegetation.</item>
+        <item>Hierarchy is a system of things ranked above each other.</item>
+        <item>Hieroglyphic is the pictograph type of script used by Egypt.</item>
+        <item>Hirsute is hairy or shaggy.</item>
+        <item>Histrionic is of or pertaining to actors or acting.</item>
+        <item>Hoatzin is a blue-faced bird of the Amazon forests.</item>
+        <item>Hootenanny is a social gathering featuring folk singing.</item>
+        <item>Horripilation is also known as goose flesh or goose bumps.</item>
+        <item>Howdah is a seat placed on the back of an elephant.</item>
+        <item>Hoyden is another name for a tomboy.</item>
+        <item>Hydrangea is a plant with showy flower clusters.</item>
+        <item>Hydrofluoric is of or derived from hydrofluoric acid.</item>
+        <item>Hyena is a doglike carnivore of Africa.</item>
+        <item>Hyperpyrexia is an abnormally high fever.</item>
+        <item>Hypnotize is to put into the hypnotic state.</item>
+        <item>Hypotenuse is the side of a right triangle opposite the right angle.</item>
+        <item>Ichneumon (iknoomen) is also called the African mongoose.</item>
+        <item>Ichthyophagist is a person who subsists on fish.</item>
+        <item>Idiosyncrasy is a characteristic or habit peculiar to an individual, incident, or the like.</item>
+        <item>Impeccable is faultless or flawless.</item>
+        <item>Imprecise means not precise or exact.</item>
+        <item>Incise (insize) means to cut into.</item>
+        <item>Indubitable is something that can\'t be doubted.</item>
+        <item>Inexorable is unyielding or unalterable.</item>
+        <item>Ingurgitate is to swallow greedily.</item>
+        <item>Iniquitous is wicked, sinful.</item>
+        <item>Innuendo is an indirect intimation about a person or thing, usually of a derogatory nature.</item>
+        <item>Inscrutable is incapable of being investigated or analyzed.</item>
+        <item>Insomnolence is sleeplessness.</item>
+        <item>Intermezzo is a short musical entertainment, between the acts of a drama or opera.</item>
+        <item>Interregnum is the time between the close of reign and the beginning of the next.</item>
+        <item>Intransigent is refusing to agree or compromise.</item>
+        <item>Inveigle is to entice by flattery or artful talk.</item>
+        <item>Inveigh is to protest strongly or attack vehemently with words.</item>
+        <item>Irascible is easily provoked to anger.</item>
+        <item>Jalousie is a window made of glass slats.</item>
+        <item>Jambalaya is a dish of Creole origin.</item>
+        <item>Jocose is given to joking or jesting.</item>
+        <item>Juvenescent is being youthful; young.</item>
+        <item>Kepi is a French military cap.</item>
+        <item>Kinkajou is an arboreal animal of Central and South America.</item>
+        <item>Klaxon is a loud, electric horn.</item>
+        <item>Klieg is a powerful type of arc light once used in the movies.</item>
+        <item>Kowtow is to show servile deference.</item>
+        <item>Lacerate is to tear roughly; mangle.</item>
+        <item>Lachrymal is of or pertaining to tears.</item>
+        <item>Languid is lacking in vigor or vitality.</item>
+        <item>Layette is an outfit of clothing or bedding for a newborn baby.</item>
+        <item>Legerdemain is sleight of hand or trickery.</item>
+        <item>Licit is legal or lawful.</item>
+        <item>Limn is to represent in drawing or painting.</item>
+        <item>Locus is a place or a locality.</item>
+        <item>Loquacious is talking or tending to talk too freely.</item>
+        <item>Lucent means shining.</item>
+        <item>Lynx is a wildcat of Canada and the northern U.S.</item>
+        <item>Macaque is a monkey, characterized by cheek pouches and short tail.</item>
+        <item>Maelstrom is a large, powerful, or violent whirlpool.</item>
+        <item>Manatee is an aquatic mammal of coastal waters, with 2 front flippers and a broad, spoon-shaped tail.</item>
+        <item>Maraud is to make a raid for booty.</item>
+        <item>Marionette is a puppet manipulated from above by strings.</item>
+        <item>Marten is an animal of northern forests.</item>
+        <item>Mastiff is a large, powerful, short-haired dog.</item>
+        <item>Matriarch is the female head of a tribal or family line.</item>
+        <item>Mellifluous is sweetly or smoothly flowing.</item>
+        <item>Menace is something that threatens to cause harm or evil.</item>
+        <item>Mendacious is telling lies, especially habitually.</item>
+        <item>Meringue is a topping for pies, pastry, etc.</item>
+        <item>Mesmerize is to hypnotize.</item>
+        <item>Metamorphose is to change the form or nature of, to transform.</item>
+        <item>Meticulous is taking extreme care about tiny details.</item>
+        <item>Mezzanine is the lowest balcony in a theater.</item>
+        <item>Microcosm is a world in miniature.</item>
+        <item>Millenium is a period of 1,000 years.</item>
+        <item>Mnemonic is assisting or intended to assist the memory.</item>
+        <item>Mocha is a choice variety of coffee.</item>
+        <item>Monocoque  is a type of aircraft in which the shell carries most of the stresses.</item>
+        <item>Morass is a tract or low, soft, wet ground.</item>
+        <item>Morose is gloomy or sullenly ill-humored.</item>
+        <item>Mote is a small particle, as in dust.</item>
+        <item>Mottle is a diversifying spot or blotch of color.</item>
+        <item>Mufti are civilian clothes.</item>
+        <item>Multiplicand is a number to be multiplied by another.</item>
+        <item>Munificent means one who is very generous.</item>
+        <item>Myrrh is an aromatic resinous exudation from certain plants.</item>
+        <item>Naphtha (naftha) is a colorless, volatile petroleum distillate.</item>
+        <item>Narcissism is excessive self-love; vanity.</item>
+        <item>Nascent is beginning to exist or develop.</item>
+        <item>Nebulous is hazy, vague or indistinct.</item>
+        <item>Neigh is to utter the cry of a horse; to whinny.</item>
+        <item>Nemesis is something a person can\'t conquer.</item>
+        <item>Newt is a brilliantly colored salamander.</item>
+        <item>Nexus is a means of connection; a tie; a link.</item>
+        <item>Niche is an ornamental recess in a wall.</item>
+        <item>Nigh means near in space, time or relation.</item>
+        <item>Nihilism is total rejection of established laws and institutions.</item>
+        <item>Nonce is the present, or immediate, occasion or purpose.</item>
+        <item>Nouveau is newly or recently created, developed, or come to prominence.</item>
+        <item>Obeisance is a bow or a curtsy.</item>
+        <item>Objurgate is to denounce vehemently; to upbraid sharply.</item>
+        <item>Obloquy is abusive language aimed at a person.</item>
+        <item>Obsequious showing servile deference; fawning on someone.</item>
+        <item>Obstreperous means unruly.</item>
+        <item>Occlude is to close, shut, or stop up.</item>
+        <item>Oleaginous means having the nature or qualities of oil.</item>
+        <item>Omniscience  is infinite knowledge.</item>
+        <item>Onerous is burdensome or troublesome.</item>
+        <item>Opalesce is to exhibit a play of colors like that of the opal.</item>
+        <item>Opprobrious is outrageously disgraceful or shameful.</item>
+        <item>Ostracism is exclusion from social acceptance.</item>
+        <item>Oxymoron is a seemingly contradictory figure of speech, like cruel kindness.</item>
+        <item>Pachyderm is an elephant.</item>
+        <item>Paean is a song of praise, joy or triumph.</item>
+        <item>Panacea is a remedy for all disease or ills.</item>
+        <item>Panache is a grand or flamboyant manner.</item>
+        <item>Panegyric is a lofty oration in praise of a person or thing.</item>
+        <item>Panoply is a wide-ranging and impressive array or display.</item>
+        <item>Papyrus is a tall, aquatic plant, native to the Nile valley.</item>
+        <item>Pariah is an outcast.</item>
+        <item>Parlance is a way or manner of speaking.</item>
+        <item>Parry is to ward off a thrust, as in fencing.</item>
+        <item>Parsec is a unit of distance equal to 3.26 light-years.</item>
+        <item>Patella is the kneecap.</item>
+        <item>Peccadillo is a very minor or slight sin or offense.</item>
+        <item>Peccary is a piglike hoofed animal of north and south America.</item>
+        <item>Peignoir is a woman\'s dressing gown.</item>
+        <item>Pendulous is hanging down loosely.</item>
+        <item>Penultimate the next to the last.</item>
+        <item>Penury is extreme poverty.</item>
+        <item>Perfidy is a deliberate breach of trust; treachery.</item>
+        <item>Perihelion is the point at which a planet is closest to the sun.</item>
+        <item>Perniciou means ruinous; injurious; hurtful.</item>
+        <item>Perquisite is a gratuity or tip.</item>
+        <item>Perspicuous is clearly expressed or presented.</item>
+        <item>Pestle is a tool to grind substances in a mortar.</item>
+        <item>Pharmaceutical pertains to pharmacy or pharmacists.</item>
+        <item>Phlegmatic is not easily excited to action.</item>
+        <item>Pique is to affect with sharp irritation.</item>
+        <item>Piranha is a small South American fish that eat fish, animals and sometimes attack humans.</item>
+        <item>Pirogue is an American boat, a dugout.</item>
+        <item>Pirouette is a whirling about on one foot or on the points of the toes, as in ballet dancing.</item>
+        <item>Plagiarize is to take ideas and works of another and pass it off as one\'s own.</item>
+        <item>Platypus is a small, egg-laying animal of Australia.</item>
+        <item>Plebeian is belonging or pertaining to the common people.</item>
+        <item>Plebiscite is a direct vote of the voters of a state in regard to some important public question.</item>
+        <item>Polychrome is being of many or various colors.</item>
+        <item>Posit is to place, put or set.</item>
+        <item>Precocious is prematurely developed.</item>
+        <item>Precursor is a person or thing that precedes.</item>
+        <item>Prescience is knowledge of things before they exist or happen.</item>
+        <item>Propitious means favorable.</item>
+        <item>Psilosis means a falling out of the hair.</item>
+        <item>Psoriasis is a common skin disease.</item>
+        <item>Ptosis is a drooping of the upper eyelid.</item>
+        <item>Pulchritude is physical beauty; comeliness.</item>
+        <item>Pyrrhic is consisting of two short or unaccented syllables.</item>
+        <item>Quadriceps is a large muscle in front of the thigh.</item>
+        <item>Quadrille is a square dance for four couples.</item>
+        <item>Quay is a landing place along a body of water.</item>
+        <item>Querulous means full of complaints.</item>
+        <item>Quiescent is being at rest; quiet; inactive.</item>
+        <item>Quinella is a type of bet on horse races.</item>
+        <item>Quirt is a riding whip.</item>
+        <item>Quoin is the external solid angle of a wall.</item>
+        <item>Quotidian means daily.</item>
+        <item>Rapier is a small sword, used for thrusting.</item>
+        <item>Rappel is the way to move down a surface in mountaineering.</item>
+        <item>Rarefy is to make rare or rarer.</item>
+        <item>Raucous is harsh or strident.</item>
+        <item>Ravenous means extremely hungry.</item>
+        <item>Recalcitrant means resisting authority.</item>
+        <item>Redoubtable is that that is to be feared; formidable.</item>
+        <item>Regurgitate is to surge or rush back.</item>
+        <item>Reparable is capable of being repaired.</item>
+        <item>Repartee is a quick, witty reply.</item>
+        <item>Repugn is to oppose or refute.</item>
+        <item>Reticent is someone disposed to be silent or not to speak freely.</item>
+        <item>Reveille is a signal to alert military personal to arise.</item>
+        <item>Rheumatism is a disorder of the extremities or back, characterized by stiffness.</item>
+        <item>Rhinoceros is a large African animal.</item>
+        <item>Ricochet is the motion of an object after deflecting from another object.</item>
+        <item>Riposte is a quick, sharp return in speech or action.</item>
+        <item>Rococo is a style of architecture and decoration.</item>
+        <item>Rogue is a dishonest person, a scoundrel.</item>
+        <item>Roil is to disturb or disquiet.</item>
+        <item>Roseate is tinged with rose; rosy.</item>
+        <item>Rough is having a coarse or uneven surface.</item>
+        <item>Rouse is to bring out of a state of sleep.</item>
+        <item>Ruse is a trick.</item>
+        <item>Saboteur is a person who commits sabotage.</item>
+        <item>Saccharin is a sweetener.</item>
+        <item>Sacroiliac is the joint where the sacrum and ilium meet.</item>
+        <item>Sacrosanct is extremely sacred or inviolable.</item>
+        <item>Sagacious showing acute mental discrenment, or being shrewd.</item>
+        <item>Saguaro is a tall, horizontally branched cactus.</item>
+        <item>Salaam is a salutation meaning peace, especially in Islamic countries.</item>
+        <item>Sanguinary means full of bloodshed, bloody.</item>
+        <item>Sarsaparilla is a soft drink made from the extract of a root.</item>
+        <item>Satiate is to supply something to excess.</item>
+        <item>Satyr is a mythological character, half human and half goat or horse.</item>
+        <item>Schiffli is a large, loomlike machine for working patterns in lace.</item>
+        <item>Schism is division or disunion.</item>
+        <item>Schlock means cheap or trashy.</item>
+        <item>Schuss is a straight downhill run at high speed, skiing.</item>
+        <item>Scimitar is a curved, single-edged sword.</item>
+        <item>Scintillate is to emit sparks.</item>
+        <item>Scorpioid is resembling a scorpion.</item>
+        <item>Scrimshaw is a carved article, especially of whale ivory.</item>
+        <item>Scrivener is a scribe.</item>
+        <item>Scythe is an implement used to cut grass or grain by hand.</item>
+        <item>Sebaceous means fatty.</item>
+        <item>Secede is to withdraw formally from an alliance.</item>
+        <item>Sedulous means persevering.</item>
+        <item>Segue (segway) means to continue at once with the next musical composition.</item>
+        <item>Seismicity is the frequency of earthquakes in a given area.</item>
+        <item>Seneschal is an officer having full charge of domestic arrangements.</item>
+        <item>Sentient means conscious.</item>
+        <item>Septuagenarian is between 70 and 80 years of age.</item>
+        <item>Sequacious means following with smooth or logical regularity.</item>
+        <item>Sequester is to remove or withdraw into solitude or retirement.</item>
+        <item>Serendipity means good fortune or luck.</item>
+        <item>Serge is a twilled fabric used for clothing.</item>
+        <item>Serrate is notched on the edge like a saw.</item>
+        <item>Setaceous is bristlelike.</item>
+        <item>Severance is the act of severing or the state of being severed.</item>
+        <item>Sexton is a church official charged with taking care of the edifice and its contents.</item>
+        <item>Sheaf is a bundle of wheat, rye, etc.</item>
+        <item>Shoal is a place where a body of water is shallow.</item>
+        <item>Sibyl is a female prophet or witch.</item>
+        <item>Sieve is an instrument with a meshed bottom, used to separate materials.</item>
+        <item>Skein is a length of yarn wound on a reel for use in manufacturing</item>
+        <item>Skink is a lizard common in both the Old and New worlds.</item>
+        <item>Sleazy means contemptibly low or disreputable.</item>
+        <item>Sloe is the small, sour fruit of the blackthorn.</item>
+        <item>Sluice is an artificial channel for conducting water.</item>
+        <item>Solecism is a nonstandard or ungrammatical usage.</item>
+        <item>Soliloquy is a discourse by a person who is talking to himself.</item>
+        <item>Sorcerer is a person who practices black magic.</item>
+        <item>Sorghum is a cereal grass.</item>
+        <item>Speciesism is discrimination in favor of one species over another.</item>
+        <item>Specious is apparently good or right though lacking real merit.</item>
+        <item>Sphinx is a figure of a creature having the head of a man or animal and the body of a lion.</item>
+        <item>Spinet is a small upright piano.</item>
+        <item>Squalor is filth or misery.</item>
+        <item>Squeegee is an implement edged with rubber to remove water from windows or floors.</item>
+        <item>Staid means of settled character, not flighty.</item>
+        <item>Stanchion is an upright bar as in a window or stall.</item>
+        <item>Stiletto is a short dagger with a thick blade.</item>
+        <item>Strafe is to attack by airplanes with machine-gun fire.</item>
+        <item>Strontium is a strong, metallic element.</item>
+        <item>Strychnine is a colorless, crystalline poison.</item>
+        <item>Sturgeon is a large fish, valued as a source of caviar.</item>
+        <item>Subcutaneous means lying under the skin, as tissue.</item>
+        <item>Submersible is that which is capable of being submerged.</item>
+        <item>Suffrutescent is partially or slightly woody.</item>
+        <item>Surcease is to cease from some action; desist.</item>
+        <item>Surfeit means excess; an excessive amount.</item>
+        <item>Suzerain is a state exercising political control over a dependent state.</item>
+        <item>Svelte is gracefully slender; lithe.</item>
+        <item>Sycamore is a North American tree.</item>
+        <item>Sycophancy is self-seeking or servile flattery.</item>
+        <item>Sylph is a slender, graceful woman or girl.</item>
+        <item>Syncopate is to place accents on beats in music normally not accented.</item>
+        <item>Tabasco is a trademark name for a condiment sauce.</item>
+        <item>Tachymeter is an instrument to rapidly determine distances.</item>
+        <item>Taciturn means inclined to silence.</item>
+        <item>Tactician is a person who is adept at planning tactics.</item>
+        <item>Taffeta is a medium- or light-weight fabric.</item>
+        <item>Talisman is an object that is supposed to possess powers.</item>
+        <item>Tallow is the fatty tissue of animals.</item>
+        <item>Talon is the claw of a bird of prey.</item>
+        <item>Tamarind is the pod of a large tropical tree.</item>
+        <item>Tamburitza is a mandolinlike instrument of southern Slavic regions.</item>
+        <item>Tanager is a songbird found in North America.</item>
+        <item>Tankard is a large drinking cup.</item>
+        <item>Tapir is a three-toed animal resembling a pig in Central and South America.</item>
+        <item>Tarantella is a rapid, whirling Italian dance.</item>
+        <item>Tarantula is a large, hairy spider.</item>
+        <item>Tariff is a list showing duties imposed on imports or exports.</item>
+        <item>Tarot is a card used for fortunetelling.</item>
+        <item>Tarry is to remain or stay awhile.</item>
+        <item>Taupe (tohp) is a brownish gray.</item>
+        <item>Taut means tightly drawn.</item>
+        <item>Taw is a fancy marble used as a shooter.</item>
+        <item>Tawny is a shade of brown tinged with yellow.</item>
+        <item>Taxable means capable of being taxed.</item>
+        <item>Teak is a large East Indian tree.</item>
+        <item>Tempestuous means tumultuous or turbulent.</item>
+        <item>Tenacious means holding fast.</item>
+        <item>Tenement is a rundown, often overcrowded apartment house.</item>
+        <item>Tenet is a principle, doctrine or dogma.</item>
+        <item>Tequila is a strong liquor from Mexico.</item>
+        <item>Termagant is a violent or brawling woman.</item>
+        <item>Tern is an aquatic bird.</item>
+        <item>Terrarium is a container for land animals.</item>
+        <item>Tertiary is of the third order.</item>
+        <item>Testatrix is a woman who makes a will.</item>
+        <item>Tetrabrach is a word of four short syllables.</item>
+        <item>Thalassic is of or pertaining to seas or oceans.</item>
+        <item>Thence means from that place.</item>
+        <item>Theocracy is a form of government in which a deity is recognized as the supreme civil ruler.</item>
+        <item>Therapeutics is the branch of medicine concerned with the remedial treatment of disease.</item>
+        <item>Thoracic is of or pertaining to the thorax.</item>
+        <item>Thought is the product of mental activity.</item>
+        <item>Thrall is one who is in bondage; slave.</item>
+        <item>Threshold is the sill of a doorway.</item>
+        <item>Tiara is a jeweled coronet worn by women.</item>
+        <item>Timbre is the characteristic quality of a sound.</item>
+        <item>Tinct is to tinge or tint, as with color.</item>
+        <item>Titillate is to excite agreeably.</item>
+        <item>Tizzy is a nervous or agitated state.</item>
+        <item>Tofu is a bland, cheeselike food, high in protein content.</item>
+        <item>Tome is a large, heavy book.</item>
+        <item>Toque is a brimless and close-fitting hat for women.</item>
+        <item>Tortoise is a turtle, especially a land turtle.</item>
+        <item>Tortuous means full of twists or turns.</item>
+        <item>Toucan is a large-billed, brightly colored bird.</item>
+        <item>Toupee is a man\'s wig.</item>
+        <item>Tourniquet is a device for arresting bleeding.</item>
+        <item>Traduce means to slander or defame.</item>
+        <item>Traipse is to walk or go aimlessly or idly.</item>
+        <item>Travois is a transporting device pulled by an animal.</item>
+        <item>Treacle is contrived sentimentality.</item>
+        <item>Triskaidekaphobia is a fear of the number 13.</item>
+        <item>Troglodyte is a prehistoric cave dweller.</item>
+        <item>Troika is a team of 3 horses driven abreast.</item>
+        <item>Trousseau is clothing, linen, especially for a bride.</item>
+        <item>Truculent is fierce or savagely brutal.</item>
+        <item>Truncheon is a club carried by a police officer.</item>
+        <item>Tryst is an appointment to meet at a certain time and place.</item>
+        <item>Tumescent means swelling.</item>
+        <item>Ubiquitous means omnipresent or being everywhere at the same time.</item>
+        <item>Umlaut is a mark used over a vowel.</item>
+        <item>Unconscionable means unscrupulous or not guided by conscience.</item>
+        <item>Unrequited is not returned or reciprocated.</item>
+        <item>Unwonted is not customary or usual or rare.</item>
+        <item>Vacillate means to waver in opinion.</item>
+        <item>Vacuous means empty.</item>
+        <item>Variscite is a secondary mineral.</item>
+        <item>Ventriloquism means throwing the voice.</item>
+        <item>Verisimilitude means the appearance of truth.</item>
+        <item>Vertebrae are bones composing the spinal column.</item>
+        <item>Vertiginous means whirling or spinning.</item>
+        <item>Vexillology means the study of flags.</item>
+        <item>Vicissitude means a change in the course of things.</item>
+        <item>Villein was an almost free person in the middle ages.</item>
+        <item>Virescent means turning green.</item>
+        <item>Viscera are the organs in the abdominal cavity.</item>
+        <item>Viscid means sticky.</item>
+        <item>Vociferous is crying out noisily.</item>
+        <item>Vorticity is a measure of the circulation of a fluid.</item>
+        <item>Waterborne is floating or moving on water.</item>
+        <item>Whet is to sharpen by grinding or friction.</item>
+        <item>Whippoorwill is a nocturnal North American bird.</item>
+        <item>Widgeon is a common, freshwater duck.</item>
+        <item>Wildebeest is a gnu.</item>
+        <item>Wok is a pan used in cooking Chinese food.</item>
+        <item>Wraith is a visible spirit.</item>
+        <item>Xenophobe is a person who fears or hates foreigners.</item>
+        <item>Xyster is a surgical instrument for scraping bones.</item>
+        <item>Xylose is a colorless crystalline sugar.</item>
+        <item>Ytrium is a rare metallic element.</item>
+        <item>Yurt is a tentlike dwelling of the Mongols.</item>
+        <item>Zephyr is a gentle breeze.</item>
+        <item>Zinciferous means yielding or containing zinc.</item>
+        <item>Zoanthropy (zoo) is a mental disorder in which one believes oneself to be an animal.</item>
+        <item>Zoopraxiscope is an early motion projector.</item>
+        <item>Zucchetto is a skullcap worn by Roman Catholic ecclesiastics.</item>
     </string-array>
 
 </resources>

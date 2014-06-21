@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2014 The Android Open Source Project
+<!-- Copyright (C) 2013 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,23 +14,15 @@
      limitations under the License.
 -->
 
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item
-        android:id="@+id/new_game"
-        android:icon="@drawable/ic_game_50"
-        android:title="@string/new_game"
-        />
-    <item
-        android:id="@+id/instructions"
-        android:icon="@drawable/ic_help_50"
-        android:title="@string/instructions"
-        />
-    
-    <item
-        android:id="@+id/wordlevel"
-        android:icon="@drawable/ic_reset"
-        android:title="@string/level"
-        />
-
-</menu>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-8px"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</FrameLayout>

@@ -16,17 +16,16 @@
 
 package com.google.android.glass.sample.charades;
 
-import com.google.android.glass.touchpad.Gesture;
+import java.util.concurrent.TimeUnit;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextView;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
+import com.google.android.glass.media.Sounds;
+import com.google.android.glass.touchpad.Gesture;
 
 /**
  * The concrete, non-tutorial implementation of the game: one minute long with ten randomly
@@ -49,8 +48,9 @@ public class GameplayActivity extends BaseGameActivity {
         public void run() {
             mSecondsRemaining--;
             updateTimer();
-
+            
             if (mSecondsRemaining <= 0) {
+            	
                 endGame();
             } else {
                 nextTick();
@@ -74,6 +74,7 @@ public class GameplayActivity extends BaseGameActivity {
     protected void onStart() {
         super.onStart();
         mSecondsRemaining = GAME_TIME_SECONDS;
+        mTimer.setTextColor(Color.WHITE);
         updateTimer();
         nextTick();
     }
@@ -84,30 +85,25 @@ public class GameplayActivity extends BaseGameActivity {
         mHandler.removeCallbacks(mTick);
     }
 
-    /** Changed to have all randomized definitions from the application's resources. */
-    @Override
-    protected CharadesModel createCharadesModel() {
-        List<String> allPhrases = Arrays.asList(getResources().getStringArray(
-                R.array.definition));
-        Collections.shuffle(allPhrases);
-        return new CharadesModel(allPhrases);
-    }
-
     @Override
     protected void handleGameGesture(Gesture gesture) {
         switch (gesture) {
             case TAP:
                 score();
+                mSecondsRemaining = GAME_TIME_SECONDS;
+            	mTimer.setTextColor(Color.WHITE);
                 if (getCharadesModel().areAllPhrasesGuessedCorrectly()) {
                     endGame();
                 }
                 break;
             case SWIPE_RIGHT:
             	mSecondsRemaining = GAME_TIME_SECONDS;
+            	mTimer.setTextColor(Color.WHITE);
                 updateTimer();
                 nextTick();
                 pass();
                 break;
+                
         }
     }
 
@@ -123,6 +119,9 @@ public class GameplayActivity extends BaseGameActivity {
         String timeString = String.format(
             "%d\uee01%02d", mSecondsRemaining / 60, mSecondsRemaining % 60);
         mTimer.setText(timeString);
+        if(mSecondsRemaining == 15) {
+        	mTimer.setTextColor(Color.RED);
+        }
     }
 
     /**
@@ -136,10 +135,11 @@ public class GameplayActivity extends BaseGameActivity {
     		Intent intent = new Intent(this, GameResultsActivity.class);
             intent.putExtra(GameResultsActivity.EXTRA_MODEL, getCharadesModel());
             startActivity(intent);
-            finish();;
+            finish();
         } else {
         	//0 seconds remaining
         	handleGameGesture(Gesture.SWIPE_RIGHT);
+        	playSoundEffect(Sounds.SELECTED);
         }
         
     }

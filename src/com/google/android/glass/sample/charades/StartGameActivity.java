@@ -100,7 +100,8 @@ public class StartGameActivity extends Activity {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
-                        startGame();
+                    	//Starts the main game activity
+                    	startActivity(new Intent(StartGameActivity.this, GameplayActivity.class));
                     }
                 });
                 return true;
@@ -117,19 +118,22 @@ public class StartGameActivity extends Activity {
                     }
                 });
                 return true;
+            case R.id.wordlevel:
+            	mHandler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                    	/**
+                         * Starts the tutorial activity, but does not finish this activity so that the splash screen
+                         * reappears when the tutorial is over.
+                         */
+                    	startActivity(new Intent(StartGameActivity.this, BaseScrollActivity.class));
+                    }
+                });
+            	return true;
 
             default:
                 return false;
         }
-    }
-
-    /**
-     * Starts the main game activity, and finishes this activity so that the user is not returned
-     * to the splash screen when they exit.
-     */
-    private void startGame() {
-        startActivity(new Intent(this, GameplayActivity.class));
-        finish();
     }
 
     

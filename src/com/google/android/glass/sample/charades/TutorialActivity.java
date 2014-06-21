@@ -16,14 +16,9 @@
 
 package com.google.android.glass.sample.charades;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
-import android.speech.tts.UtteranceProgressListener;
 import android.view.View;
 import android.widget.TextView;
 
@@ -36,11 +31,9 @@ import com.google.android.glass.touchpad.Gesture;
 public class TutorialActivity extends BaseGameActivity implements OnInitListener {
 
     /** The number of phrases that will be selected for the game. */
-    private static final int NUMBER_OF_PHRASES = 10;
+    //private static final int NUMBER_OF_PHRASES = 10;
     private static String[] mWords;
     private TextToSpeech mTts;
-    boolean mSpeechReady = false;
-    boolean mPhraseSpoken = false;
     TextView mNext;
 
     @Override
@@ -57,15 +50,6 @@ public class TutorialActivity extends BaseGameActivity implements OnInitListener
         //mTts.setOnUtteranceProgressListener(mSpListener);
     }
 
-    //same as 
-    @Override
-    protected CharadesModel createCharadesModel() {
-        List<String> allPhrases = Arrays.asList(getResources().getStringArray(
-                R.array.definition));
-        Collections.shuffle(allPhrases);
-        return new CharadesModel(allPhrases.subList(0, NUMBER_OF_PHRASES));
-    }
-
     /**
      * Overridden to only allow the tap gesture on the "Tap to score" screen and to only allow the
      * swipe gesture on the "Swipe to pass" screen. The game is also automatically ended when the
@@ -76,32 +60,20 @@ public class TutorialActivity extends BaseGameActivity implements OnInitListener
         int phraseIndex = getCharadesModel().getCurrentPhraseIndex();
         switch (gesture) {
             case TAP:
-                if (phraseIndex != NUMBER_OF_PHRASES) {
-                    //score();
-                	mTts.speak(getCharadesModel().getCurrentPhrase(), TextToSpeech.QUEUE_FLUSH, null);
-                	//mPhraseSpoken = true;
-                	getCurrentTextView().setText(mWords[getCharadesModel().mCurrentPhrase]);
-                	mNext.setVisibility(View.GONE);
-                }
+            	mTts.speak(getCharadesModel().getCurrentPhrase(), TextToSpeech.QUEUE_FLUSH, null);
+            	//mPhraseSpoken = true;
+            	getCurrentTextView().setText(mWords[getCharadesModel().mCurrentPhrase]);
+            	mNext.setVisibility(View.GONE);
                 break;
             case SWIPE_RIGHT:
-                if(phraseIndex != NUMBER_OF_PHRASES) {
-                	
-                	//mPhraseSpoken = false;
-                	getCharadesModel().pass();
-                	//advance to next
-                	mTts.speak(mWords[getCharadesModel().mCurrentPhrase], TextToSpeech.QUEUE_FLUSH, null);
-                    //playSoundEffect(Sounds.SELECTED);
-                    getCurrentTextView().setText("");
-                    mNext.setVisibility(View.VISIBLE);
-                    
-                }
+            	//mPhraseSpoken = false;
+            	getCharadesModel().pass();
+            	//advance to next
+            	mTts.speak(mWords[getCharadesModel().mCurrentPhrase], TextToSpeech.QUEUE_FLUSH, null);
+                //playSoundEffect(Sounds.SELECTED);
+                getCurrentTextView().setText("");
+                mNext.setVisibility(View.VISIBLE);
                 break;
-        }
-
-        // Finish the tutorial if we transitioned away from the final card.
-        if (phraseIndex == getCharadesModel().getPhraseCount() - 1) {
-            finish();
         }
     }
 
@@ -109,9 +81,10 @@ public class TutorialActivity extends BaseGameActivity implements OnInitListener
 	@Override
 	public void onInit(int arg0) {
 		//what is this parameter?
-		mSpeechReady = true;
 		mTts.speak(mWords[0], TextToSpeech.QUEUE_FLUSH, null);
-		getCurrentTextView().setText("");
+    	//Beginner at level 0 is the default
+    	getCurrentTextView().setText(getLevelText());
+		
 	}
 	
 	 @Override
@@ -120,28 +93,5 @@ public class TutorialActivity extends BaseGameActivity implements OnInitListener
 		super.onDestroy();
 		mTts.shutdown();
 	}
-	
-	/*private final UtteranceProgressListener mSpListener = new UtteranceProgressListener() {
-
-		@Override
-		public void onDone(String arg0) {
-			// Cleared for the next word to play;
-			if(mPhraseSpoken) return;
-			TutorialActivity.this.getCurrentTextView().setText("Tap to continue");
-		}
-
-		@Override
-		public void onError(String utteranceId) {
-			// TODO Auto-generated method stub
-			
-		}
-
-		@Override
-		public void onStart(String utteranceId) {
-			// TODO Auto-generated method stub
-			
-		}
-		
-	};*/
 	
 }

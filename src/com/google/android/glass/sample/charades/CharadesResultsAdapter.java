@@ -189,8 +189,8 @@ public class CharadesResultsAdapter extends CardScrollAdapter {
      */
     private void updateSummaryView(View summaryView) {
         SummaryViewHolder holder = (SummaryViewHolder) summaryView.getTag();
-        holder.messageView.setText(mModel.areAllPhrasesGuessedCorrectly() ?
-                R.string.great_job : R.string.game_over);
+        /*holder.messageView.setText(mModel.areAllPhrasesGuessedCorrectly() ?
+                R.string.great_job : R.string.game_over);*/
         holder.scoreView.setText(mResources.getString(
                 R.string.score_summary, mModel.getScore(), mModel.getPhraseCount()));
     }
