@@ -107,7 +107,7 @@ public abstract class BaseGameActivity extends Activity {
     private ViewFlipper mPhraseFlipper;
 
     /** TextView containing the dots that represent the scored/unscored phrases in the game. */
-    private TextView mGameState;
+    protected TextView mGameState;
 
     /** Animation used to briefly tug a phrase when the user swipes left. */
     private Animation mTugRightAnimation;

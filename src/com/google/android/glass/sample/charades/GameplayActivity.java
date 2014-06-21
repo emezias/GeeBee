@@ -18,7 +18,6 @@ package com.google.android.glass.sample.charades;
 
 import java.util.concurrent.TimeUnit;
 
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
@@ -50,7 +49,6 @@ public class GameplayActivity extends BaseGameActivity {
             updateTimer();
             
             if (mSecondsRemaining <= 0) {
-            	
                 endGame();
             } else {
                 nextTick();
@@ -138,6 +136,9 @@ public class GameplayActivity extends BaseGameActivity {
     private void endGame() {
     	if(getCharadesModel().areAllPhrasesGuessedCorrectly()) {
     		getCurrentTextView().setText(R.string.endgame);
+    		mTimer.setText("");
+    		mGameState.setText("");
+    		mHandler.removeCallbacks(mTick);
         } else {
         	//0 seconds remaining
         	handleGameGesture(Gesture.SWIPE_RIGHT);
