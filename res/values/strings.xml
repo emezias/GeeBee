@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- The name of the application. -->
+    <string name="app_name">Bee</string>
+
+    <!-- Tip text displayed at the bottom of the splash screen. -->
+    <string name="tap_for_options">Tap for options</string>
+
+    <!-- Text displayed on the result summary card when the game ended because time ran out. -->
+    <string name="game_over">Game over</string>
+
+    <!--
+         Text displayed on the result summary card when the game ended because all phrases were
+         guessed correctly.
+    -->
+    <string name="great_job">Great job!</string>
+
+    <!-- Format string used to display the final score on the result summary card. -->
+    <string name="score_summary">Score: %1$d/%2$d</string>
+
+    <!-- Menu item text to start a new game. -->
+    <string name="new_game">Lead a Bee</string>
+
+    <!-- Menu item text to display the game instructions. -->
+    <string name="instructions">Speller Help</string>
+
+    <!-- sentence and definitions -->
+    <string-array name="definition">
+        <item>Abscess is a localized collection of pus in tissues of the body.</item>
+        <item>Accessible means easy to approach</item>
+        <item>Accommodate is to do a kindness or a favor to; oblige.</item>
+        <item>Accordion is a musical instrument.</item>
+        <item>Annulment is the declaration that annuls a marriage.</item>
+        <item>Appellate is of or pertaining to appeals.</item>
+        <item>Assassin is a murderer, especially in politics.</item>
+        <item>Atrium is the central room of an ancient Roman house.</item>
+        <item>Automaton is another word for a robot.</item>
+        <item>Baboon is a large monkey found in Africa or Arabia.</item>
+        <item>Balloon is an inflated bag.</item>
+        <item>Barbiturate is used to medicine as a sedative.</item>
+        <item>Barrette is a clasp used to hold a girl\'s hair in place.</item>
+        <item>Bassoon is a large woodwind instrument.</item>
+        <item>Bazaar is a marketplace, especially in the Middle East.</item>
+        <item>Beige is a very light brown.</item>
+        <item>Benign is having a kindly disposition.</item>
+        <item>Bizarre is markedly unusual.</item>
+        <item>Bobbin is a reel upon which yarn or thread is wound.</item>
+        <item>Bonsai is a tree that has been dwarfed, as by pruning.</item>
+        <item>Bough is a branch of a tree.</item>
+        <item>Bouillon is a clear usually seasoned broth.</item>
+        <item>Bouquet is a bunch of flowers.</item>
+        <item>Bursar is a treasurer or business officer.</item>
+        <item>Butte is an isolated hill or mountain rising abruptly.</item>
+        <item>Cache is a hiding place.</item>
+        <item>Calendar is a table of days and weeks in a year.</item>
+        <item>Camaraderie is good fellowship.</item>
+        <item>Campaign is a military operation for a specific objective.</item>
+        <item>Canvass is to solicit votes.</item>
+        <item>Carafe is a wide-mouthed bottle used to serve beverages.</item>
+        <item>Caribou is a large, North American deer.</item>
+        <item>Cataclysm is any violent upheaval.</item>
+        <item>Caterpillar is the larva of a butterfly or moth.</item>
+        <item>Cellist is a person who plays a cello.</item>
+        <item>Cemetery is a place set apart for graves or tombs.</item>
+        <item>Censor is an official who examines material to suppress all or part of it.</item>
+        <item>Census is an official enumeration of the population.</item>
+        <item>Chameleon is a lizard that can, as protection, change color.</item>
+        <item>Charisma is a personal quality that gives one power over a group of people.</item>
+        <item>Chauffeur is a person employed to drive an automobile.</item>
+        <item>Cliche is a trite, stereotyped expression.</item>
+        <item>Codeine is used as a sedative or analgesic.</item>
+        <item>Colloquy is a conversational exchange, dialogue.</item>
+        <item>Colonel is an officer in the Army or Air Force.</item>
+        <item>Conceit is an excessively favorable opinion of oneself.</item>
+        <item>Concessionaire is someone to whom a concession has been granted.</item>
+        <item>Conscious is being aware of one\'s own existence.</item>
+        <item>Consensus is a majority of opinion.</item>
+        <item>Consomme is a clear soup.</item>
+        <item>Cough is to expel air through the lungs harshly, often violently.</item>
+        <item>Counsel is advice.</item>
+        <item>Coyote is a smaller, wolf-like animal.</item>
+        <item>Crescent resembles a segment of a ring tapering to points at the ends.</item>
+        <item>Crochet is needlework with a needle having a hook at one end.</item>
+        <item>Croquet is a game played by knocking balls through metal wickets with a mallet.</item>
+        <item>Crouton is a small piece of fried or toasted bread.</item>
+        <item>Crypt is a subterranean chamber or vault.</item>
+        <item>Cuckoo is a common European bird.</item>
+        <item>Cursor is a movable symbol on a computer.</item>
+        <item>Cymbal is a concave plate that produces a sharp, ringing sound when struck, played in pairs.</item>
+        <item>Debris is the remains of things broken down or destroyed.</item>
+        <item>Deceive is to mislead by a false appearance or statement.</item>
+        <item>Deductible means capable of being deducted.</item>
+        <item>Defendant is a person against whom a charge is brought against in court.</item>
+        <item>Descender is the part of the letter that goes below the body.</item>
+        <item>Detached means not attached or separated.</item>
+        <item>Deuce is a card having two spots.</item>
+        <item>Dialogue is conversation with two or more people.</item>
+        <item>Dictionary is a book containing a selection of words or a language.</item>
+        <item>Diocese is a district under the jurisdiction of a bishop.</item>
+        <item>Diphtheria is an infectious disease.</item>
+        <item>Disappear is to cease to be seen.</item>
+        <item>Discernible means capable of being distinguished.</item>
+        <item>Distraught means deeply agitated.</item>
+        <item>Doubt is to be uncertain about.</item>
+        <item>Dough is flour or meal combined with water.</item>
+        <item>Drought is a period of dry weather.</item>
+        <item>Ecstasy is rapturous delight.</item>
+        <item>Eerie is uncanny, weird.</item>
+        <item>Elite is the choice or the best of anything.</item>
+        <item>Embarrass is to cause confusion and shame to.</item>
+        <item>Ensign is a flag or banner.</item>
+        <item>Entourage is a group of attendants or associates.</item>
+        <item>Entrepreneur  is a person who organizes or manages an enterprise.</item>
+        <item>Enzyme is one of various proteins.</item>
+        <item>Etiquette is conventional requirements to social behavior.</item>
+        <item>Eulogy is a speech in praise of a dead person.</item>
+        <item>Exacerbate is to make something worse.</item>
+        <item>Exchequer is a treasury.</item>
+        <item>Facade is the front of a building.</item>
+        <item>Farce is a light, humorous play.</item>
+        <item>Fatigue is weariness from exertion.</item>
+        <item>Faucet is a device to control the flow of liquid.</item>
+        <item>Feasible is capable of being done.</item>
+        <item>Feign is to represent fictitiously.</item>
+        <item>Feint is a movement made to deceive an opponent.</item>
+        <item>Fiery is containing fire or impetuous.</item>
+        <item>Fight is a battle or combat.</item>
+        <item>Finesse is extreme delicacy or skill in performance.</item>
+        <item>Finicky means difficult to please.</item>
+        <item>Flaunt means to display oneself conspicuously.</item>
+        <item>Fledgling is a young bird or an inexperienced person.</item>
+        <item>Floe is a sheet of floating ice.</item>
+        <item>Flour is the finely ground meal of grain.</item>
+        <item>Flourish means to thrive.</item>
+        <item>Flower is the blossom of a plant.</item>
+        <item>Flue is a passage for smoke in a chimney.</item>
+        <item>Foray is a quick raid.</item>
+        <item>Forbear is to refrain or abstain from.</item>
+        <item>Frappe is a milkshake made with ice cream.</item>
+        <item>Freight is goods or cargo transported for pay.</item>
+        <item>Fugue is a composition in music.</item>
+        <item>Furlough is a leave of absence granted to an enlisted person.</item>
+        <item>Galloping is running or moving quickly.</item>
+        <item>Gambol meanS to skip about, as in dancing.</item>
+        <item>Gauge is to determine the capacity of or to measure.</item>
+        <item>Geisha is a Japanese woman trained as a singer or dancer.</item>
+        <item>Gerbil is a small, burrowing rodent.</item>
+        <item>Gerund is a verb functioning as a noun.</item>
+        <item>Geyser is a hot spring that sends up jets of water and steam.</item>
+        <item>Gherkin is the immature fruit of a cucumber, used in pickling.</item>
+        <item>Ghoul is an evil demon, a grave-robber.</item>
+        <item>Giraffe is a long-necked African animal.</item>
+        <item>Glitch is a defect or malfunction in a plan or machine.</item>
+        <item>Glower is to look or stare at with anger.</item>
+        <item>Gnarl is a knotty protuberance on a tree.</item>
+        <item>Gnu or wildebeest is a stocky, ox-like antelope.</item>
+        <item>Goad is a stick with a pointed end.</item>
+        <item>Governor is the chief executive of a state.</item>
+        <item>Gorgeous means splendid or magnificent.</item>
+        <item>Gorilla is the largest of the anthropoid apes.</item>
+        <item>Gourmet is a connoisseur of fine food and drink.</item>
+        <item>Graffiti are markings on walls.</item>
+        <item>Grammar is the study of the way sentences are constructed.</item>
+        <item>Grotesque is odd or unnatural in appearance or shape.</item>
+        <item>Gruel is a light, thin, cooked cereal.</item>
+        <item>Guild is an organization of people with related interests.</item>
+        <item>Gypsum is a common mineral.</item>
+        <item>Hackney is a carriage or coach for hire.</item>
+        <item>Haggard is having a wasted appearance.</item>
+        <item>Hallow means to make holy.</item>
+        <item>Hallucinogen is a substance that produces hallucinations.</item>
+        <item>Halve is to divide into two equal parts.</item>
+        <item>Hangar is a shelter for airplanes.</item>
+        <item>Harangue is a scolding or intense verbal attack.</item>
+        <item>Harass is to disturb persistently.</item>
+        <item>Harbinger is a herald, or one who goes before.</item>
+        <item>Harlequin is a buffoon.</item>
+        <item>Hassle is a disorderly dispute.</item>
+        <item>Havoc is great destruction or devastation.</item>
+        <item>Hearken is to pay attention or listen to.</item>
+        <item>Hearth is the floor of a fireplace.</item>
+        <item>Heifer is a cow over one year old that has not produced a calf.</item>
+        <item>Height is the extent or distance upward.</item>
+        <item>Helix is a spiral.</item>
+        <item>Hemisphere is half of the terrestrial globe.</item>
+        <item>Heresy is opinion at odds with the accepted doctrine, esp church.</item>
+        <item>Hiatus is a break in the action.</item>
+        <item>Hideous is horrible or frightful.</item>
+        <item>Hindrance is an impeding or a stopping.</item>
+        <item>Hippopotamus is called the river horse, from Africa.</item>
+        <item>Hoax is something intended to deceive or defraud.</item>
+        <item>Hobnob is to associate on friendly terms.</item>
+        <item>Hodgepodge means a jumble.</item>
+        <item>Homily is a sermon, usually on a Biblical topic.</item>
+        <item>Honest is honorable on intentions and principles.</item>
+        <item>Honeycomb is a structure bees use to store honey, pollen and eggs.</item>
+        <item>Horizon is the line that forms the apparent border between earth and sky.</item>
+        <item>Horrendous is shockingly dreadful.</item>
+        <item>Humiliate is to cause a loss of pride or dignity.</item>
+        <item>Humongous means extraordinarily large.</item>
+        <item>Hurrah is an exclamation of joy.</item>
+        <item>Hustle is to proceed or work rapidly.</item>
+        <item>Hyacinth is a plant of the lily family.</item>
+        <item>Hybrid is the offspring of two different breeds or species.</item>
+        <item>Hygiene is the science that deals with preservation of health.</item>
+        <item>Hymn is a song in praise of God.</item>
+        <item>Hyperbole is obvious exaggeration.</item>
+        <item>Hyphen is a short line used to connect parts of compound word.</item>
+        <item>Hypocrisy is pretending to something that one doesn\'t believe.</item>
+        <item>Icon is a picture, image or other representation.</item>
+        <item>Illegible is hard to read or decipher because of poor handwriting.</item>
+        <item>Illicit is not legally permitted.</item>
+        <item>Illiteracy is a lack of ability to read and write.</item>
+        <item>Imbecile is a person having a mental age of seven or eight.</item>
+        <item>Impasse is a deadlock.</item>
+        <item>Impede is to retard in movement by means of obstacles.</item>
+        <item>Incense is a substance producing sweet odor when burned, used in religious ceremonies to enhance a mood.</item>
+        <item>Incessant means continuing without interruption.</item>
+        <item>Incite is to stir, encourage or urge on.</item>
+        <item>Incognito is to have one\'s identity concealed.</item>
+        <item>Indictment is a formal accusation in a criminal case.</item>
+        <item>Inertia is lack of motion, sluggishness.</item>
+        <item>Inevitable is something that can\'t be avoided.</item>
+        <item>Inflammable is capable of being set on fire.</item>
+        <item>Influenza is a viral, acute, sometimes epidemic disease.</item>
+        <item>Innate is existing in one from birth.</item>
+        <item>Innocence is without sin, the state of being innocent.</item>
+        <item>Inquisition is an official investigation, especially political or religious, without regard for individual rights.</item>
+        <item>Instinct is an inborn pattern of activity or tendency to action.</item>
+        <item>Intercede is to act in behalf of someone in difficulty.</item>
+        <item>Intravenous means within a vein.</item>
+        <item>Invincible is incapable of being conquered or defeated.</item>
+        <item>Irritable is easily irritated or annoyed.</item>
+        <item>Island is land entirely surrounded by water.</item>
+        <item>Issue is the act of sending out or putting forth.</item>
+        <item>Italicize is to print in Italic type.</item>
+        <item>Jackknife is a large pocketknife.</item>
+        <item>Jaguar is the largest cat in the western hemisphere.</item>
+        <item>Jamb is a vertical side of a doorway.</item>
+        <item>Janitor is a person employed to keep things clean.</item>
+        <item>Jaundice is a yellow discoloration of the skin or eyes.</item>
+        <item>Jealous is feeling resentment against someone because of success of advantages.</item>
+        <item>Jeer is to scoff at someone.</item>
+        <item>Jeopardy is risk to loss, harm, death or injury.</item>
+        <item>Jinx is someone supposed to bring bad luck.</item>
+        <item>Jostle is to brush against, to push or shove.</item>
+        <item>Journal is a daily record.</item>
+        <item>Judgmental is involving the use of judgment.</item>
+        <item>Judicious is discreet or prudent.</item>
+        <item>Juice is the fluid that can be extracted from something.</item>
+        <item>Junction is a place where things are joined.</item>
+        <item>Karate is a method of self-defense.</item>
+        <item>Katydid is a large, American grasshopper.</item>
+        <item>Kayak is an Eskimo canoe.</item>
+        <item>Kerosene is a mixture of hydrocarbons used as fuel, or cleaning material.</item>
+        <item>Kettle is a metal container in which to cook foods.</item>
+        <item>Khaki means dull yellowish brown.</item>
+        <item>Kidnapped means being stolen, abducted or carried off by force.</item>
+        <item>Kiln is an oven to fire pottery.</item>
+        <item>Kitchen is a room or place equipped for cooking.</item>
+        <item>Kiwi is a flightless bird of New Zealand.</item>
+        <item>Knack is a special skill or aptitude.</item>
+        <item>Knead is to work dough into a uniform mixture.</item>
+        <item>Knight is a mounted soldier in the Middle Ages.</item>
+        <item>Knowledge is acquaintance with facts, as from study or investigation.</item>
+        <item>Knuckle is a joint of the finger.</item>
+        <item>Labor is productive activity for the sake of economic gain.</item>
+        <item>Lacquer is a protective coating.</item>
+        <item>Ladle is a long-handled utensil used for dipping.</item>
+        <item>Lamb is a young sheep.</item>
+        <item>Language is a body of words common to a people.</item>
+        <item>Larceny is the wrongful taking and carrying away of the personal goods of another with the intent to convert them to the taker\'s own use.</item>
+        <item>Laud is to praise or extol.</item>
+        <item>Laugh is to express pleasure audibly.</item>
+        <item>League is a unit of distance, usually about 3 miles.</item>
+        <item>Lectern is a stand with a slanted top, used to hold a speech or book, etc.</item>
+        <item>Lecture is a speech read or delivered before an audience.</item>
+        <item>Legible is capable of being read or deciphered with ease.</item>
+        <item>Leisure is freedom from the demands of work.</item>
+        <item>Length is the longest extent of something from end to end.</item>
+        <item>Leopard is a large, spotted cat of Asia or Africa.</item>
+        <item>Lesion is an injury; hurt; wound.</item>
+        <item>Levy is an imposing or collecting, as a tax, by force or authority.</item>
+        <item>Liaison is the contact maintained between groups to insure concerted action or cooperation.</item>
+        <item>Libelous is maliciously defamatory.</item>
+        <item>Lieutenant is a military rank.</item>
+        <item>Lightning is a brilliant electric spark discharge.</item>
+        <item>Limousine is a large, luxurious car, especially one driven by a chauffeur.</item>
+        <item>Liquor is a distilled or spiritous beverage.</item>
+        <item>Loge in a theater is the front section of the lowest balcony.</item>
+        <item>Lubricant is a substance for lessening friction.</item>
+        <item>Lucid means easily understood; completely understandable.</item>
+        <item>Luminous is radiating or reflecting light.</item>
+        <item>Lyricist is a person who writes the lyrics for a song.</item>
+        <item>Macabre is gruesome and horrifying.</item>
+        <item>Macaroni is a small tubular pasta.</item>
+        <item>Machete is a large, heavy knife used to cut underbrush or sugar cane.</item>
+        <item>Magnificent is making a splendid appearance or show.</item>
+        <item>Mahogany is a tree or a reddish-brown color.</item>
+        <item>Maim is to cripple.</item>
+        <item>Maintenance is the act of keeping things in good order.</item>
+        <item>Malaria is a disease characterized by chills or fever, caused by the bite of a mosquito.</item>
+        <item>Malice is the desire to inflict harm on someone.</item>
+        <item>Malign is to speak harmful untruths about.</item>
+        <item>Malleable is capable of being shaped by hammering or pressure.</item>
+        <item>Manacle is a shackle for the hand; handcuffs.</item>
+        <item>Mantel is a construction framing the opening of a fireplace.</item>
+        <item>Margarine is a butter-like product made from refined vegetable oils.</item>
+        <item>Marina is a boat basin offering dockage and other service for small craft.</item>
+        <item>Maroon is a dark brownish-red.</item>
+        <item>Marriage is the social institution under which a man and woman decide to live as husband and wife by legal commitments, religious ceremonies.</item>
+        <item>Martial is inclined or disposed to war.</item>
+        <item>Martyr is a person who suffers death rather than give up religion.</item>
+        <item>Massacre is the unnecessary killing of human beings, as in a war.</item>
+        <item>Mauve is a pale bluish purple.</item>
+        <item>Mayonnaise is a thick dressing of different ingredients.</item>
+        <item>Maze is a confusing network of intercommunication paths or passages.</item>
+        <item>Meager is deficient in quantity or quality.</item>
+        <item>Mechanical is having to do with machinery.</item>
+        <item>Mediocre is of only ordinary or moderate quality.</item>
+        <item>Melancholy is a gloomy state of mind.</item>
+        <item>Memoir is a record written by a person based on personal observation.</item>
+        <item>Metaphor is a figure of speech in which a term is applied to something to which it isn\'t literally applicable, as in a mighty fortress is our god.</item>
+        <item>Militia is a body of citizens enrolled for military service, and called out periodically for drill.</item>
+        <item>Mirth is amusement or laughter.</item>
+        <item>Miscellaneous is of mixed character.</item>
+        <item>Mischievous is maliciously or playfully annoying.</item>
+        <item>Miscue is a mistake.</item>
+        <item>Miserable is very unhappy, uneasy or uncomfortable.</item>
+        <item>Mistletoe is a plant used in Christmas decorations.</item>
+        <item>Moccasin is a heeless shoe made entirely of soft leather.</item>
+        <item>Moderator is a person who presides over a discussion.</item>
+        <item>Modify is to alter partially, to amend.</item>
+        <item>Molasses is a thick syrup produced during the refining of sugar.</item>
+        <item>Monarch is a hereditary sovereign.</item>
+        <item>Monitor is a student appointed to assisted in the conduct of a class.</item>
+        <item>Monopoly is exclusive control of a commodity of service in a particular market.</item>
+        <item>Morale is emotional or mental condition with respect to confidence, especially in the face of hardship.</item>
+        <item>Mortgage is a conveyance of an interest in property as security for the repayment of money borrowed.</item>
+        <item>Mosquito is an insect that bites, some passing on certain diseases.</item>
+        <item>Mourn is to feel or express sorrow or grief.</item>
+        <item>Muscle is a tissue, the contraction of which produces movement.</item>
+        <item>Myriad is a very great or indefinitely great number.</item>
+        <item>Myth is a traditional or legendary story, usually concerning some being or hero, without a determinable basis of fact.</item>
+        <item>Naive means unsophisticated or ingenuous.</item>
+        <item>Nasal is of or pertaining to the nose.</item>
+        <item>Nausea is sickness at the stomach, especially when loathing food.</item>
+        <item>Necessary is being essential; indispensable.</item>
+        <item>Nectar is the secretion of a plant, which attracts insects or birds that pollinate the flower.</item>
+        <item>Nephew is a son of one\'s brother or sister.</item>
+        <item>Nestle is to lie close and snug.</item>
+        <item>Nicotine is an alkaloid found in tobacco and valued as an insecticide.</item>
+        <item>Noble is distinguished by rank or title.</item>
+        <item>Nocturnal is of or pertaining to the night.</item>
+        <item>Novice is a person who is new to something.</item>
+        <item>Nurture is to feed and protect.</item>
+        <item>Nutritious is providing nourishment, especially to a high degree.</item>
+        <item>Obelisk is a tapering, four-sided shaft of stone, with a pyramidal top.</item>
+        <item>Obese means very fat or overweight.</item>
+        <item>Obituary is the notice of the death of a person.</item>
+        <item>Obey is to follow the directions of someone.</item>
+        <item>Oblique means slanting; sloping.</item>
+        <item>Oblivious means unaware of.</item>
+        <item>Obvious is easily understood or recognizable.</item>
+        <item>Odious is hateful or detestable.</item>
+        <item>Ogle is to look at impertinently.</item>
+        <item>Omission is the act of omitting.</item>
+        <item>Opaque is not allowing light to pass through.</item>
+        <item>Operator is a person who runs a machine, apparatus or the like.</item>
+        <item>Orator is a public speaker.</item>
+        <item>Orchestra is a group of performers on various musical instruments.</item>
+        <item>Orchid is a flower of a plant of temperate and tropical regions.</item>
+        <item>Ordinance is a decree or command.</item>
+        <item>Outweigh is to exceed in value or influence.</item>
+        <item>Pact is an agreement, covenant or compact.</item>
+        <item>Pageant is an elaborate public spectacle.</item>
+        <item>Palace is the official residence of an exalted person.</item>
+        <item>Palate is the roof of the mouth.</item>
+        <item>Pantry is a room in which food is kept.</item>
+        <item>Papaya is a large, yellow, melonlike fruit.</item>
+        <item>Paprika is a red, powdery condiment.</item>
+        <item>Paraffin is a substance used in candles or to waterproof paper.</item>
+        <item>Parallel is extending in the same direction, but never converging.</item>
+        <item>Parcel is a small package, a bundle.</item>
+        <item>Parfait is a dessert of ice cream and fruit, or ice cream and syrup.</item>
+        <item>Partial means incomplete.</item>
+        <item>Particle is a tine or very small bit.</item>
+        <item>Patience is the quality of being patient.</item>
+        <item>Patio is an area of a house used for outdoor lounging, dining, etc.</item>
+        <item>Paws are the feet of an animal having claws.</item>
+        <item>Pedal is a foot-operated lever used for various things.</item>
+        <item>Peddle is to carry things from place to place for sale.</item>
+        <item>Pedestrian is a person who goes on foot.</item>
+        <item>Peek is to look or glance quickly or furtively.</item>
+        <item>Pension is a fixed amount other than a salary paid to a person.</item>
+        <item>Perceive is to become aware of.</item>
+        <item>Perceptive is having or showing keenness of insight, understanding or intuition.</item>
+        <item>Perplex is to cause to be puzzled over what is not understood.</item>
+        <item>Personnel is a body of persons employed in an organization or place or work.</item>
+        <item>Perturb is to disturb in mind; agitate.</item>
+        <item>Petite means short or diminutive.</item>
+        <item>Phantom is an apparition or specter.</item>
+        <item>Phase is a stage in a process of change or development.</item>
+        <item>Phrase is a series of words in grammatical construction and acting as a unit in a sentence.</item>
+        <item>Piccolo is a small flute sounding an octave higher than an ordinary flute.</item>
+        <item>Pickle is a cucumber that has been preserved in brine.</item>
+        <item>Piece is a separate or limited quantity of something.</item>
+        <item>Pizza is a flat, baked pie of Italian origin, with various ingredients and toppings.</item>
+        <item>Plague is an epidemic disease that causes high morality.</item>
+        <item>Plaque is a tablet or plate of metal, intended for use as an ornament.</item>
+        <item>Plateau is a land area having a relatively level surface considerably raised above adjoining land.</item>
+        <item>Plural pertains to more than one.</item>
+        <item>Poise is composure.</item>
+        <item>Policy is a definite course of action.</item>
+        <item>Pollute is to make foul or unclear.</item>
+        <item>Populace is the common people of a nation.</item>
+        <item>Possess is to have as belonging to one; to own.</item>
+        <item>Posterior is situated behind or at the rear of.</item>
+        <item>Potency is power or authority.</item>
+        <item>Precede is to go before.</item>
+        <item>Precinct is a district marked out for governmental purposes, or police protection.</item>
+        <item>Precious is of high price or great value.</item>
+        <item>Principal is first or highest in rank or importance.</item>
+        <item>Python is a big constricting snake.</item>
+        <item>Quartz is one of the most common minerals.</item>
+        <item>Quash is to put down or suppress.</item>
+        <item>Queer is strange or odd.</item>
+        <item>Quirk is a peculiarity.</item>
+        <item>Raccoon is an animal with a mask-like stripe across the eyes.</item>
+        <item>Racquetball is a game similar to handball, but played with a racquet.</item>
+        <item>Raise is to move to a higher position.</item>
+        <item>Ramble is to wander around in an aimless manner.</item>
+        <item>Rapport is relation or connection.</item>
+        <item>Rapture is ecstatic joy or delight.</item>
+        <item>Ravine is a narrow, steep-sided valley.</item>
+        <item>Razor is an instrument used for shaving.</item>
+        <item>Reactor is an apparatus in which a nuclear chain-reaction can be obtained.</item>
+        <item>Receipt is a written acknowledgment of having received something.</item>
+        <item>Receive is to take something into one\'s possession.</item>
+        <item>Recess is a temporary withdrawal from work or activity.</item>
+        <item>Recite is to repeat words from memory.</item>
+        <item>Recommend is to present as worthy of confidence or acceptance.</item>
+        <item>Reduce is to bring down to a smaller amount.</item>
+        <item>Refrigerator is a container in which items are kept cool or cold.</item>
+        <item>Refugee is a person who flees his country in time of upheaval or war.</item>
+        <item>Regular is usual or normal.</item>
+        <item>Relieve is to ease or alleviate pain, distress or anxiety.</item>
+        <item>Reservoir is a place where water is collected or stored.</item>
+        <item>Resign is to give up an office or position.</item>
+        <item>Review is going over a subject.</item>
+        <item>Rhyme is a word agreeing with another word in terminal sound.</item>
+        <item>Rhythm is movement with uniform recurrence of a beat or accent.</item>
+        <item>Ritual is a prescribed or established procedure.</item>
+        <item>Routine is a customary or usual procedure.</item>
+        <item>Rumor is a story without confirmation or certainty as to facts.</item>
+        <item>Scene is the place where some action or event occurs.</item>
+        <item>Scent is a distinctive color.</item>
+        <item>Schedule is a plan of procedure.</item>
+        <item>Scheme is an underhand plot, intrigue.</item>
+        <item>Scholar is a learned person.</item>
+        <item>Science is a branch of knowledge or study.</item>
+        <item>Scissors is a cutting instrument.</item>
+        <item>Seize is to take hold of forcibly.</item>
+        <item>Shear is to cut something.</item>
+        <item>Sheer is transparently thin.</item>
+        <item>Shepherd is a person who tends or guards sheep.</item>
+        <item>Sheriff is the law-enforcement officer of a county.</item>
+        <item>Shield is a piece of armor worn on the arm of defensive purposes.</item>
+        <item>Siege is the act of surrounding and attacking a fortified place in such a way as to isolate it from aid or supplies.</item>
+        <item>Sigh is to let out one\'s breath audibly.</item>
+        <item>Sight is the power or faculty of seeing.</item>
+        <item>Sign is a token or indication.</item>
+        <item>Sincere is free of deceit or falseness.</item>
+        <item>Site is the position or location of something.</item>
+        <item>Soccer is football as it is played around the world.</item>
+        <item>Source is anything from which something comes or arises.</item>
+        <item>Souvenir is a usually inexpensive reminder of a place visited.</item>
+        <item>Spaghetti is a white, starchy pasta of Italian origin.</item>
+        <item>Stationary means standing still, not moving.</item>
+        <item>Stature is the height of a human or animal body.</item>
+        <item>Straight is without a bend or angle, not curved.</item>
+        <item>Strength is the quality or state of being strong.</item>
+        <item>Successor is a person or thing that succeeds or follows.</item>
+        <item>Suede is kid or other leather finished with a soft, nappy surface.</item>
+        <item>Superintendent is a person who oversees or directs some work.</item>
+        <item>Supervisor is a person who supervises the work done by others.</item>
+        <item>Sword is a weapon consisting of a blade and a hilt.</item>
+        <item>Tablespoonful is the amount a tablespoon can hold.</item>
+        <item>Tabloid is a newspaper whose pages are about half the size of a standard-sized newspaper.</item>
+        <item>Tackle is equipment, apparatus or gear, especially for fishing.</item>
+        <item>Tailor is a person who makes, mends or alters clothing.</item>
+        <item>Tale is a narrative that relates details or some event or incident.</item>
+        <item>Talk is to communicate by speaking.</item>
+        <item>Tantrum is a violent demonstration of rage.</item>
+        <item>Tardy means late.</item>
+        <item>Tattle is to let out secrets.</item>
+        <item>Tattoo is an indelible marking on the skin.</item>
+        <item>Tease is to irritate or provoke.</item>
+        <item>Teethe means to grow or cut teeth.</item>
+        <item>Telescope is an instrument to make distant objects appear larger.</item>
+        <item>Tension is the act of stretching or straining.</item>
+        <item>Terrace is a raised level with a vertical or sloping front or sides.</item>
+        <item>Thaw is to pass from a frozen to a liquid state.</item>
+        <item>Theme is a subject of discourse or discussion.</item>
+        <item>Thief is a person who steals.</item>
+        <item>Tight is firmly or closely fixed in place.</item>
+        <item>Tissue IS as in tissue paper.</item>
+        <item>Toad is an amphibian, a close relative of the frog.</item>
+        <item>Toast is sliced bread that has been browned by heat.</item>
+        <item>Toboggan is a long, narrow, flat-bottomed sled.</item>
+        <item>Tombstone is a marker on a tomb or grave.</item>
+        <item>Tough means strong and durable.</item>
+        <item>Trample is to tread or stamp heavily.</item>
+        <item>Tricycle is a three-wheeled vehicle for children.</item>
+        <item>Typewriter is a machine to produce letters and characters on paper.</item>
+        <item>Ukulele is a small, guitar-like instrument.</item>
+        <item>Unanswerable is not capable of being answered.</item>
+        <item>Unconscious means without awareness or cognition.</item>
+        <item>Vacuum is a space entirely devoid of matter.</item>
+        <item>Vanilla IS as in the flavor.</item>
+        <item>Villain is a cruelly malicious person.</item>
+        <item>Warranty is assurance.</item>
+        <item>Weigh is to determine the force of gravity on an object by using a scale.</item>
+        <item>Weird is unearthly or uncanny.</item>
+        <item>Wield is to exercise power or authority.</item>
+        <item>Yacht is a private cruising vessel.</item>
+        <item>Yolk is the yellow substance of an egg.</item>
+    </string-array>
+
+</resources>
