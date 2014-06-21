@@ -44,8 +44,6 @@
         <activity android:name=".GameplayActivity" />
 
         <activity android:name=".TutorialActivity" />
-<!-- unused... -->
-        <activity android:name=".GameResultsActivity" />
         
         <activity android:name=".BaseScrollActivity" />
         

@@ -103,6 +103,11 @@ public class GameplayActivity extends BaseGameActivity {
                 nextTick();
                 pass();
                 break;
+            case SWIPE_LEFT:
+                // Swipe left (backward) is always handled here to provide a brief
+                // "disallowed" tug animation.
+                tugPhrase();
+                break;
                 
         }
     }
@@ -132,10 +137,7 @@ public class GameplayActivity extends BaseGameActivity {
      */
     private void endGame() {
     	if(getCharadesModel().areAllPhrasesGuessedCorrectly()) {
-    		Intent intent = new Intent(this, GameResultsActivity.class);
-            intent.putExtra(GameResultsActivity.EXTRA_MODEL, getCharadesModel());
-            startActivity(intent);
-            finish();
+    		getCurrentTextView().setText(R.string.endgame);
         } else {
         	//0 seconds remaining
         	handleGameGesture(Gesture.SWIPE_RIGHT);

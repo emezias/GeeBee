@@ -38,8 +38,13 @@
 
     <!-- Menu item text to display the game instructions. -->
     <string name="instructions">Speller Help</string>
-
-    <!--
+	<string name="level0">Beginner</string>
+	<string name="level1">Intermediate</string>
+	<string name="level2">Advanced</string>
+	<string name="prompt">Swipe to change, Tap to select</string>
+		
+	<string name="endgame">No more words \nLevel Complete</string>
+	<!--
          sentence and definitions, words scraped from The Herald
     	http://www2.sharonherald.com/herald/nie/spellb/spelllist3.html
     -->

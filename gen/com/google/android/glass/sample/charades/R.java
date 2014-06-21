@@ -90,6 +90,7 @@ public final class R {
         /**  The name of the application. 
          */
         public static final int app_name=0x7f090000;
+        public static final int endgame=0x7f09000b;
         /** 
          Text displayed on the result summary card when the game ended because all phrases were
          guessed correctly.
@@ -100,9 +101,13 @@ public final class R {
          */
         public static final int instructions=0x7f090006;
         public static final int level=0x7f090002;
+        public static final int level0=0x7f090007;
+        public static final int level1=0x7f090008;
+        public static final int level2=0x7f090009;
         /**  Menu item text to start a new game. 
          */
         public static final int new_game=0x7f090005;
+        public static final int prompt=0x7f09000a;
         /**  Format string used to display the final score on the result summary card. 
          */
         public static final int score_summary=0x7f090004;

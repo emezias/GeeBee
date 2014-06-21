@@ -60,13 +60,33 @@ public class TutorialActivity extends BaseGameActivity implements OnInitListener
         int phraseIndex = getCharadesModel().getCurrentPhraseIndex();
         switch (gesture) {
             case TAP:
+            	//this case plays the sentence audio and displays the word
             	mTts.speak(getCharadesModel().getCurrentPhrase(), TextToSpeech.QUEUE_FLUSH, null);
-            	//mPhraseSpoken = true;
             	getCurrentTextView().setText(mWords[getCharadesModel().mCurrentPhrase]);
             	mNext.setVisibility(View.GONE);
                 break;
+            case SWIPE_LEFT:
+                // Swipe left (backward) is handled here and allows two way navigation through the words
+            	if(getCharadesModel().mCurrentPhrase > 2) {
+            		getCharadesModel().mCurrentPhrase = getCharadesModel().mCurrentPhrase -2;
+                	getCharadesModel().pass();
+            	} else {
+            		tugPhrase();
+            	}
+            	
+            	//advance to next
+            	mTts.speak(mWords[getCharadesModel().mCurrentPhrase], TextToSpeech.QUEUE_FLUSH, null);
+                //playSoundEffect(Sounds.SELECTED);
+                getCurrentTextView().setText("");
+                mNext.setVisibility(View.VISIBLE);
+                break;
             case SWIPE_RIGHT:
-            	//mPhraseSpoken = false;
+            	if(getCharadesModel().getCurrentPhraseIndex() == getCharadesModel().mTotal-1) {
+            		//finished last word already
+            		getCurrentTextView().setText(R.string.endgame);
+            		return;
+            	}
+            	//this case speaks the word and does not display any more to the speller
             	getCharadesModel().pass();
             	//advance to next
             	mTts.speak(mWords[getCharadesModel().mCurrentPhrase], TextToSpeech.QUEUE_FLUSH, null);

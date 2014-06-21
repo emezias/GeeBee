@@ -65,16 +65,13 @@ public abstract class BaseGameActivity extends Activity {
         public boolean onGesture(Gesture gesture) {
             if (areGesturesEnabled()) {
                 switch (gesture) {
-                    case SWIPE_LEFT:
-                        // Swipe left (backward) is always handled here to provide a brief
-                        // "disallowed" tug animation.
-                        tugPhrase();
-                        return true;
+                    
                     case SWIPE_DOWN:
                         setResult(RESULT_CANCELED);
                         playSoundEffect(Sounds.DISMISSED);
                         finish();
                         return true;
+                    case SWIPE_LEFT:
                     case TAP:
                     case SWIPE_RIGHT:
                         // Delegate tap and swipe right (forward) to the subclass so that the
@@ -83,7 +80,7 @@ public abstract class BaseGameActivity extends Activity {
                         return true;
                     
                     default:
-                        return true;
+                        return false;
                 }
             }
             return false;
@@ -288,7 +285,7 @@ public abstract class BaseGameActivity extends Activity {
     }
 
     /** Plays a tugging animation that provides feedback when the user tries to swipe backward. */
-    private void tugPhrase() {
+    protected void tugPhrase() {
         mPhraseFlipper.startAnimation(mTugRightAnimation);
     }
 }
